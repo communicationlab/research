@@ -97,5 +97,3 @@ python3 -m http.server 8000
 - Respects `prefers-reduced-motion`, is keyboard-accessible, and works down to mobile.
 
 ---
-
-Designed by **Raihan Raaz**.
