@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#060914">
+  <title>Contact · Communication Systems Research Group</title>
+  <meta name="description" content="Contact the Communication Systems Research Group at BRAC University, Department of Electrical & Electronic Engineering, Dhaka, Bangladesh.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="contact">
+  <div id="site-header"></div>
+
+  <main id="main">
+    <section class="pagehead">
+      <div class="wrap">
+        <p class="eyebrow">Contact</p>
+        <h1>Get in touch.</h1>
+        <p>Reach the group about collaborations, theses, research assistant positions, or press. We're on the BRAC University campus in Dhaka.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="contact-grid">
+          <div class="contact-card reveal" id="contactCard">
+            <h3>Communication Systems Research Group</h3>
+            <div class="contact-row"><span class="k">Dept</span><span class="v" id="cDept"></span></div>
+            <div class="contact-row"><span class="k">School</span><span class="v" id="cSchool"></span></div>
+            <div class="contact-row"><span class="k">Email</span><span class="v"><a id="cEmail" href="#"></a></span></div>
+            <div class="contact-row"><span class="k">Phone</span><span class="v"><a id="cPhone" href="#"></a></span></div>
+            <div class="contact-row"><span class="k">Address</span><span class="v" id="cAddr"></span></div>
+          </div>
+          <div class="map reveal">
+            <iframe id="cMap" title="BRAC University map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt">
+      <div class="wrap">
+        <div class="section__head">
+          <p class="eyebrow">Direct to faculty</p>
+          <h2>Prefer to reach a researcher?</h2>
+          <p>Each faculty profile lists room number, extension, and personal research links.</p>
+        </div>
+        <div class="people" id="homePeople"></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="js/data.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      if (typeof SITE === "undefined") return;
+      const set = (id, txt) => { const n = document.getElementById(id); if (n) n.textContent = txt; };
+      set("cDept", SITE.department);
+      set("cSchool", SITE.school);
+      set("cAddr", SITE.address);
+      const email = document.getElementById("cEmail");
+      if (email) { email.textContent = SITE.email; email.href = "mailto:" + SITE.email; }
+      const phone = document.getElementById("cPhone");
+      if (phone) { phone.textContent = SITE.phone; phone.href = "tel:" + SITE.phone.replace(/\s/g, ""); }
+      const map = document.getElementById("cMap");
+      if (map) map.src = SITE.mapEmbed;
+    });
+  </script>
+  <script src="js/components.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

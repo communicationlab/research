@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#060914">
+  <title>Communication Systems Research Group · BRAC University</title>
+  <meta name="description" content="Communication Systems Research Group at BRAC University — next-generation wireless, optical, and intelligent communication systems: spectrum sharing, 6G, optical camera communication, and deep reinforcement learning for networks.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="index">
+  <div id="site-header"></div>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <canvas id="heroCanvas" aria-hidden="true"></canvas>
+      <div class="wrap hero__inner">
+        <span class="eyebrow eyebrow--signal">Communication Systems Research Group</span>
+        <h1 id="heroTitle">Engineering the <span class="grad">signals</span> that connect everything.</h1>
+        <p class="hero__lead">We research wireless communications, dynamic spectrum sharing, machine learning for the physical layer, optical wireless links, and 5G/6G networks — from mmWave and terahertz spectrum to intelligent, learning-driven radios.</p>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="research.html">Explore research →</a>
+          <a class="btn btn--ghost" href="publications.html">View publications</a>
+        </div>
+        <div class="spectrum-band" aria-hidden="true">
+          <span class="spectrum-band__bar"></span>
+          <div class="spectrum-band__ticks">
+            <span>HF</span><span>VHF</span><span>UHF</span><span>SHF · 5G</span><span>mmWave</span><span>THz · 6G</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT (brief) -->
+    <section class="section" id="about">
+      <div class="wrap about-grid">
+        <div class="about-grid__intro reveal">
+          <p class="eyebrow eyebrow--signal">About the group</p>
+          <h2>A research home for the next generation of connectivity.</h2>
+          <p>The <strong>Communication Systems Research Group</strong> investigates how information moves across space — reliably, securely, and efficiently. Our work spans the full stack: from spectrum policy and dynamic sharing, through modulation, coding and estimation theory, up to machine-learning-driven radios and 6G network design.</p>
+          <p>We build and evaluate real systems — <strong>software-defined radios, mmWave and terahertz spectrum models, and channel/link simulators</strong> — and pair experiment with rigorous theory. Our members graduate fluent in both the mathematics of communication and the systems that make it physical.</p>
+          <p>We collaborate with academic and industry partners across telecom and beyond, and welcome motivated students at every level.</p>
+        </div>
+        <aside class="care-card reveal">
+          <h3>What we care about</h3>
+          <p class="care-card__sub">Principles that guide every project in the group.</p>
+          <ul class="care-list">
+            <li><span class="care-dot"></span><span><strong>Spectrum is finite.</strong> Design for utilization, sharing, and reuse.</span></li>
+            <li><span class="care-dot"></span><span><strong>Theory meets systems.</strong> Every model earns its place in a real link.</span></li>
+            <li><span class="care-dot"></span><span><strong>Open by default.</strong> Reproducible code, data, and results.</span></li>
+            <li><span class="care-dot"></span><span><strong>People before papers.</strong> We train engineers, not just publish.</span></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- RESEARCH highlights -->
+    <section class="section">
+      <div class="wrap">
+        <div class="section__head">
+          <p class="eyebrow">Research thrusts</p>
+          <h2>Where we work across the spectrum.</h2>
+          <p>Eight-plus active directions in the communication domain. Each links radio-and-optical theory to real network problems.</p>
+        </div>
+        <div class="rgrid" id="homeResearch"></div>
+        <p style="margin-top:2rem"><a class="text-link" href="research.html">See all research thrusts →</a></p>
+      </div>
+    </section>
+
+    <!-- PEOPLE brief -->
+    <section class="section section--alt">
+      <div class="wrap">
+        <div class="section__head">
+          <p class="eyebrow">People</p>
+          <h2>Led by two communication researchers.</h2>
+        </div>
+        <div class="people" id="homePeople"></div>
+        <p style="margin-top:2rem"><a class="text-link" href="people.html">Meet the team →</a></p>
+      </div>
+    </section>
+
+    <!-- PUBLICATIONS highlights -->
+    <section class="section">
+      <div class="wrap">
+        <div class="section__head">
+          <p class="eyebrow">Selected publications</p>
+          <h2>Recent work.</h2>
+        </div>
+        <ul class="publist" id="homePubs"></ul>
+        <p style="margin-top:1.6rem"><a class="text-link" href="publications.html">Browse the full list →</a></p>
+      </div>
+    </section>
+
+    <!-- PROJECTS highlights -->
+    <section class="section section--alt">
+      <div class="wrap">
+        <div class="section__head">
+          <p class="eyebrow">Projects &amp; grants</p>
+          <h2>From the bench to the network.</h2>
+        </div>
+        <div class="pgrid" id="homeProjects"></div>
+        <p style="margin-top:2rem"><a class="text-link" href="projects.html">See all projects →</a></p>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section">
+      <div class="wrap">
+        <div class="cta reveal">
+          <h2>Interested in collaborating or joining?</h2>
+          <p>We welcome students, collaborators, and industry partners working on next-generation communication systems.</p>
+          <div class="cta__actions">
+            <a class="btn btn--primary" href="contact.html">Get in touch →</a>
+            <a class="btn btn--ghost" href="about.html">About the group</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
