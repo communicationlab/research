@@ -125,7 +125,7 @@ window.CRL = (function () {
     if (!canvas) return;
     const ctx = canvas.getContext("2d");
     let w, h, dpr, nodes = [], raf, t = 0;
-    const COLORS = ["#2dd4bf", "#22d3ee", "#8b7bf2"];
+    const COLORS = ["#0d9488", "#0891b2", "#7c3aed"];
 
     const size = () => {
       dpr = Math.min(window.devicePixelRatio || 1, 2);
@@ -149,7 +149,7 @@ window.CRL = (function () {
                   + Math.sin(x * 0.006 + t * 0.6) * (amp * 0.35);
           x === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
         }
-        ctx.strokeStyle = COLORS[s] + "66";
+        ctx.strokeStyle = COLORS[s] + "40";
         ctx.lineWidth = 1.5;
         ctx.stroke();
       }
@@ -167,14 +167,14 @@ window.CRL = (function () {
           const d = Math.hypot(a.x - b.x, a.y - b.y);
           if (d < 130) {
             ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(b.x, b.y);
-            ctx.strokeStyle = `rgba(99,102,241,${(1 - d / 130) * 0.18})`;
+            ctx.strokeStyle = `rgba(79,70,229,${(1 - d / 130) * 0.16})`;
             ctx.lineWidth = 1; ctx.stroke();
           }
         }
       }
       for (const p of nodes) {
         ctx.beginPath(); ctx.arc(p.x, p.y, 1.6, 0, Math.PI * 2);
-        ctx.fillStyle = "rgba(34,211,238,.6)"; ctx.fill();
+        ctx.fillStyle = "rgba(8,145,178,.45)"; ctx.fill();
       }
     };
 
