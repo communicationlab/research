@@ -14,13 +14,13 @@
    ========================================================================== */
 
 const SITE = {
-  labName:  "Communication Systems Research Group",
-  labShort: "CSRG",
+  labName:  "Communication Networks and Systems Research Group",
+  labShort: "C2NS",
   subtitle: "Wireless · Optical · Intelligent Communication Systems",
   department: "Department of Electrical & Electronic Engineering",
   school: "BSRM School of Engineering, BRAC University",
   address: "Kha-224, Bir Uttam Rafiqul Islam Ave, Merul Badda, Dhaka 1212, Bangladesh",
-  email: "crl@bracu.ac.bd",          // <- lab contact email (edit to your real one)
+  email: "bracu.ac.bd",          // <- lab contact email (edit to your real one)
   phone: "+880 9638 464646",
   mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.296056615635!2d90.42047627822032!3d23.772469623619408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c78e49160331%3A0x2fd8ec432cec9fc4!2sBRAC%20University!5e0!3m2!1sen!2sbd!4v1707842777541!5m2!1sen!2sbd",
 
@@ -94,7 +94,7 @@ const PEOPLE = [
     photo: "https://engineering.bracu.ac.bd/uploads/bsrm-members/1751365884.jpg",
     room: "4E23",
     ext: "1841",
-    tags: ["Deep RL", "Optical Wireless", "uRLLC", "Vehicular Comms"],
+    tags: ["Machine Learning for Communication", "Optical Wireless Communications", "uRLLC", "Vehicular Communications"],
     links: {
       profile: "https://engineering.bracu.ac.bd/profile/amirul-islam-phd",
       website: "https://islamamirul.wordpress.com/",
@@ -116,7 +116,7 @@ const PEOPLE = [
       "Machine learning for communication",
       "Deep reinforcement learning",
       "Ultra-reliable and low-latency communication (uRLLC)",
-      "Optical wireless communication (OWC / OCC)",
+      "Optical wireless communication (OWC/OCC)",
       "Automotive and vehicular communication",
       "Medical robotics",
       "Optimization strategies",
@@ -124,7 +124,7 @@ const PEOPLE = [
     ],
     stats: [
       { value: "IEEE",  label: "TCOM · TMC · TITS" },
-      { value: "OWC",   label: "Optical camera comms" },
+      { value: "OWC",   label: "Optical camera communication" },
       { value: "DRL",   label: "for uRLLC" },
       { value: "30+",   label: "Publications" }
     ]
@@ -144,6 +144,14 @@ const RESEARCH = [
     lead: "Coexistence of 4G LTE and 5G NR, licensed/unlicensed sharing, and cognitive-radio policies that squeeze more capacity from finite spectrum.",
     points: ["LTE–NR dynamic spectrum sharing", "Interweave / underlay access models", "Spectrum sensing & policy design"]
   },
+   {
+    id: "ml-comms",
+    title: "Machine Learning for Communication",
+    band: "AI · ML",
+    icon: "brain",
+    lead: "Deep and reinforcement learning to optimize modulation, coding and resource allocation directly from the radio environment.",
+    points: ["Deep reinforcement learning", "Multi-agent optimization", "Learned modulation & coding"]
+  },   
   {
     id: "mmwave-thz",
     title: "Millimeter-Wave & Terahertz Communication",
@@ -154,7 +162,7 @@ const RESEARCH = [
   },
   {
     id: "6g",
-    title: "5G / 6G & Beyond Wireless Networks",
+    title: "5G/6G & Beyond Wireless Networks",
     band: "B5G · 6G",
     icon: "signal",
     lead: "Architectures, waveforms and resource management for beyond-5G — from ultra-dense HetNets to non-terrestrial integration.",
@@ -168,13 +176,13 @@ const RESEARCH = [
     lead: "Image-sensor and optical camera communication (OCC) for the internet of vehicles and indoor positioning.",
     points: ["Optical camera communication", "Image-sensor communication", "Indoor optical localization"]
   },
-  {
-    id: "ml-comms",
-    title: "Machine Learning for Communication",
-    band: "AI · ML",
-    icon: "brain",
-    lead: "Deep and reinforcement learning to optimize modulation, coding and resource allocation directly from the radio environment.",
-    points: ["Deep reinforcement learning", "Multi-agent optimization", "Learned modulation & coding"]
+   {
+    id: "vehicular",
+    title: "Vehicular & Automotive Communication",
+    band: "V2X",
+    icon: "car",
+    lead: "Connecting the internet of vehicles through optical and radio links with learning-based spectral-efficiency control.",
+    points: ["Vehicular OCC", "V2X spectral efficiency", "Region-of-interest signalling"]
   },
   {
     id: "urllc",
@@ -183,15 +191,7 @@ const RESEARCH = [
     icon: "bolt",
     lead: "Meeting the strict reliability and latency budgets of mission-critical links, including vehicular and industrial use cases.",
     points: ["5G NR codes & modulation", "Latency-reliability trade-offs", "Mission-critical scheduling"]
-  },
-  {
-    id: "vehicular",
-    title: "Vehicular & Automotive Communication",
-    band: "V2X",
-    icon: "car",
-    lead: "Connecting the internet of vehicles through optical and radio links with learning-based spectral-efficiency control.",
-    points: ["Vehicular OCC", "V2X spectral efficiency", "Region-of-interest signalling"]
-  },
+  },  
   {
     id: "small-cells",
     title: "Small Cells & In-Building Networks",
