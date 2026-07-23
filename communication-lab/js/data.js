@@ -14,8 +14,8 @@
    ========================================================================== */
 
 const SITE = {
-  labName:  "Communication Systems Research Group",
-  labShort: "CSRG",
+  labName:  "Communication Networks and Systems Research Group",
+  labShort: "C2NS",
   subtitle: "Wireless · Optical · Intelligent Communication Systems",
   department: "Department of Electrical & Electronic Engineering",
   school: "BSRM School of Engineering, BRAC University",
@@ -25,7 +25,7 @@ const SITE = {
   mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.296056615635!2d90.42047627822032!3d23.772469623619408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c78e49160331%3A0x2fd8ec432cec9fc4!2sBRAC%20University!5e0!3m2!1sen!2sbd!4v1707842777541!5m2!1sen!2sbd",
 
   // Hero copy (home page)
-  heroKicker: "BRAC University · EEE",
+  heroKicker: "BRAC University· EEE",
   heroTitle: "Engineering how information moves through spectrum and space.",
   heroLead: "We research next-generation wireless, optical, and intelligent communication systems — from dynamic spectrum sharing and 6G to optical camera communication and deep-reinforcement-learned networks.",
 
@@ -59,7 +59,7 @@ const PEOPLE = [
     short: "Associate Professor of EEE and member of the Dynamic Spectrum Management Group at Stanford's STAR Laboratory. Fifteen years of research in mobile wireless communications across academia and industry, with 75+ peer-reviewed papers and a Japanese patent.",
     bio: [
       "Dr. Rony Kumer Saha is an Associate Professor in the Department of Electrical and Electronic Engineering at BRAC University. Since February 2023 he has been a member of the Dynamic Spectrum Management Group at the STAR Laboratory, Stanford University, and served as a Visiting Professor of Electrical Engineering at Stanford from February to May 2023.",
-      "Earlier he was a Postdoctoral Researcher across the Optical Access Network, Wireless Platform, and Radio & Spectrum Laboratories at KDDI Research, Inc., Japan (2017–2022), and held faculty positions at American International University-Bangladesh and East West University. He has authored 75+ peer-reviewed international journal and conference papers and filed a Japanese patent.",
+      "Earlier, he was a Postdoctoral Researcher across the Optical Access Network, Wireless Platform, and Radio & Spectrum Laboratories at KDDI Research, Inc., Japan (2017–2022), and held faculty positions at American International University-Bangladesh and East West University. He has authored 75+ peer-reviewed international journal and conference papers and filed a Japanese patent.",
       "He received BRAC University's Quality Journal Publication Award (Q1, Top 10%) in 2025, multiple international best-paper awards, and was named an IARIA Fellow (2021/2022). He serves as Associate Editor of the Engineering Journal (Thailand) and reviews for numerous IEEE Transactions and journals."
     ],
     education: [
@@ -78,7 +78,7 @@ const PEOPLE = [
       "Co-channel interference mitigation and cancellation",
       "In-building small-cell planning, design and deployment",
       "Radio resource allocation and scheduling",
-      "Cloud-RAN, fronthaul and RAN virtualization / slicing"
+      "Cloud-RAN, fronthaul and RAN virtualization/slicing"
     ],
     stats: [
       { value: "700+", label: "Citations" },
@@ -94,7 +94,7 @@ const PEOPLE = [
     photo: "https://engineering.bracu.ac.bd/uploads/bsrm-members/1751365884.jpg",
     room: "4E23",
     ext: "1841",
-    tags: ["Deep RL", "Optical Wireless", "uRLLC", "Vehicular Comms"],
+    tags: ["Deep RL", "Optical Wireless Communication", "uRLLC", "Vehicular Communications"],
     links: {
       profile: "https://engineering.bracu.ac.bd/profile/amirul-islam-phd",
       website: "https://islamamirul.wordpress.com/",
