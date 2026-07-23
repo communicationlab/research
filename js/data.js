@@ -124,7 +124,7 @@ const PEOPLE = [
     ],
     stats: [
       { value: "IEEE",  label: "TCOM · TMC · TITS" },
-      { value: "OWC",   label: "Optical camera communication" },
+      { value: "1600+", label: "Citations" },
       { value: "DRL",   label: "for uRLLC" },
       { value: "30+",   label: "Publications" }
     ]
