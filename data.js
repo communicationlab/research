@@ -276,23 +276,25 @@ const PROJECTS = [
    ========================================================================= */
 const PUBLICATIONS = [
   /* ---------- Dr. Amirul Islam ---------- */
-  { year: 2025, type: "journal", faculty: "islam", authors: "A. Islam, N. Thomos, L. Musavian", title: "Deep Reinforcement Learning Based Ultra Reliable and Low Latency Vehicular OCC", venue: "IEEE Transactions on Communications, 73(5), 3254–3267", url: "https://doi.org/10.1109/tcomm.2024.3478108" },
-  { year: 2024, type: "journal", faculty: "islam", authors: "A. Islam, N. Thomos, L. Musavian", title: "5G NR Codes and Modulation Deep-RL Optimization for uRLLC in Vehicular OCC", venue: "IEEE Transactions on Intelligent Transportation Systems, 25(12), 19592–19604", url: "https://doi.org/10.1109/TITS.2024.3462742" },
-  { year: 2024, type: "journal", faculty: "islam", authors: "A. Islam, N. Thomos, L. Musavian", title: "Multi-Agent Deep Reinforcement Learning for Spectral Efficiency Optimization in Vehicular Optical Camera Communications", venue: "IEEE Transactions on Mobile Computing, 23(5), 3666–3679", url: "https://doi.org/10.1109/TMC.2023.3278277" },
-  { year: 2024, type: "journal", faculty: "islam", authors: "F. Ahmmed, A. Rahman, A. Islam, et al.", title: "Arduino-Controlled Multi-Function Robot with Bluetooth and nRF24L01+ Communication", venue: "Int. Journal of Robotics and Control Systems, 4(3), 1353–1381", url: "http://dx.doi.org/10.31763/ijrcs.v4i3.1517" },
-  { year: 2018, type: "journal", faculty: "islam", authors: "A. Islam, M. T. Hossan, Y. M. Jang", title: "Convolutional Neural Network Scheme-Based Optical Camera Communication System for Intelligent Internet of Vehicles", venue: "Int. Journal of Distributed Sensor Networks, 14(4), 1–19", url: "https://doi.org/10.1177/1550147718770153" },
-  { year: 2018, type: "journal", faculty: "islam", authors: "M. Z. Chowdhury, M. T. Hossan, A. Islam, Y. M. Jang", title: "A Comparative Survey of Optical Wireless Technologies: Architectures and Applications", venue: "IEEE Access, 6, 9819–9840", url: "https://doi.org/10.1109/ACCESS.2018.2792419" },
-  { year: 2017, type: "journal", faculty: "islam", authors: "A. Islam, M. T. Hossan, T. Nguyen, Y. M. Jang", title: "Adaptive Spatial-Temporal Resolution Optical Vehicular Communication System Using Image Sensor", venue: "Int. Journal of Distributed Sensor Networks, 13(11), 1–15", url: "https://doi.org/10.1177/1550147717743698" },
-  { year: 2017, type: "journal", faculty: "islam", authors: "T. Nguyen, A. Islam, T. Yamazato, Y. M. Jang", title: "Technical Issues on IEEE 802.15.7m Task Group and Image Sensor Communication Technologies", venue: "IEEE Communications Magazine, 56(2), 213–218", url: "https://doi.org/10.1109/MCOM.2018.1700134" },
-  { year: 2017, type: "journal", faculty: "islam", authors: "T. Nguyen, A. Islam, M. T. Hossan, Y. M. Jang", title: "Current Status and Performance Analysis of Optical Camera Communication Technologies for 5G Networks", venue: "IEEE Access, 5, 4574–4594", url: "https://doi.org/10.1109/ACCESS.2017.2681110" },
-  { year: 2017, type: "journal", faculty: "islam", authors: "T. Nguyen, A. Islam, Y. M. Jang", title: "Region-of-Interest Signaling Vehicular System Using Optical Camera Communications", venue: "IEEE Photonics Journal, 9(1), 1–20", url: "https://doi.org/10.1109/JPHOT.2016.2644960" },
-  { year: 2016, type: "journal", faculty: "islam", authors: "N. T. Le, M. A. Hossain, A. Islam, et al.", title: "Survey of Promising Technologies for 5G Networks", venue: "Mobile Information Systems, 2016, Art. 2676589", url: "https://doi.org/10.1155/2016/2676589" },
+ 
+/* ---------------------------- JOURNAL PAPERS ---------------------------- */
 
-  { year: 2022, type: "conference", faculty: "islam", authors: "A. Islam, N. Thomos, L. Musavian", title: "Achieving uRLLC with Machine Learning Based Vehicular OCC", venue: "IEEE GLOBECOM 2022, Rio de Janeiro, 4558–4563", url: "" },
-  { year: 2022, type: "conference", faculty: "islam", authors: "A. Islam, L. Musavian, N. Thomos", title: "Multi-Agent Deep Reinforcement Learning in Vehicular OCC", venue: "IEEE VTC2022-Spring, Helsinki, 1–6", url: "" },
-  { year: 2019, type: "conference", faculty: "islam", authors: "A. Islam, L. Musavian, N. Thomos", title: "Performance Analysis of Vehicular Optical Camera Communications: Roadmap to uRLLC", venue: "IEEE GLOBECOM 2019, Waikoloa, 1–6", url: "" },
-  { year: 2018, type: "conference", faculty: "islam", authors: "A. Islam, M. T. Hossain, M. Z. Chowdhury, Y. M. Jang", title: "Design of an Indoor Positioning Scheme Using Artificial Intelligence Algorithms", venue: "ICOIN 2018, Chiang Mai, 953–956", url: "" },
-  { year: 2017, type: "conference", faculty: "islam", authors: "A. Islam, M. T. Hossain, Y. M. Jang", title: "Introduction of Optical Camera Communication for Internet of Vehicles (IoV)", venue: "ICUFN 2017, Milan, 122–125", url: "" },
+{ year: 2026, type: "journal", faculty: "islam", authors: "N. N. Karima, S. Ahmad, A. Islam, et al.", title: "Enhancing Short-Term Load Forecasting Using Hyperparameter-Optimized Deep Learning Approaches", venue: "Energies, 19(3), 705", url: "https://doi.org/10.3390/en19030705" },
+
+{ year: 2026, type: "journal", faculty: "islam", authors: "A. M. Arika, A. S. N. Huda, S. Ahmad, A. Islam", title: "Vibration-Based Multi-Class Fault Severity Classification of Wind Turbine Gearboxes Using Explainable Machine Learning", venue: "Energy Conversion and Management: X", url: "https://www.sciencedirect.com/science/article/pii/S2590174526001042" },
+
+{ year: 2026, type: "journal", faculty: "islam", authors: "U. Dev, M. R. Uddin, S. Ahmad, A. Islam, A. S. N. Huda, et al.", title: "Edge Cutting and AI-Driven Protection Strategies for DC Microgrids: A Comprehensive Survey of Challenges, Technologies, and Future Trends", venue: "Results in Engineering, 30", url: "" },
+
+{ year: 2026, type: "journal", faculty: "islam", authors: "S. Mahmood, S. A. Trina, A. S. Sukanna, M. S. Ahmed, A. Islam", title: "Multi-Model Deep Ensemble Framework for Early Diagnosis of Rare Genetic Disorders Using Genomic, Phenotypic, and EHR Data Fusion", venue: "Indonesian Journal of Electrical Engineering and Computer Science", url: "" },
+
+
+/* -------------------------- CONFERENCE PAPERS --------------------------- */
+/* NOTE: conference venue names were not listed on the public records I could
+   reach — please fill in the "venue" text before publishing these two.      */
+
+{ year: 2026, type: "conference", faculty: "islam", authors: "A. S. Sukanna, S. Mahmood, S. A. Trina, A. Islam", title: "A Dual-Recurrent Attention Architecture for High-Recall Sentiment Analysis in Noisy Twitter Texts", venue: "", url: "" },
+
+{ year: 2026, type: "conference", faculty: "islam", authors: "S. Mahmood, S. A. Trina, M. S. Ahmed, A. Islam", title: "Energy-Regularized Bidirectional Recurrent Attention Networks with Contrastive Confidence Modeling for Lightweight and Explainable Sentiment Classification", venue: "", url: "" },
 
   /* ---------- Dr. Rony Kumer Saha ---------- */
   { year: 2025, type: "journal", faculty: "saha", authors: "R. K. Saha", title: "A Generic Millimeter-Wave and Terahertz Spectrum Reuse Model for In-Building Multi-Band Small Cells: Achieving Spectral and Energy Efficiencies of 6G", venue: "IEEE Open Journal of the Communications Society, 6, 198–223", url: "https://doi.org/10.1109/OJCOMS.2024.3521503" },
