@@ -339,7 +339,7 @@ const PUBLICATIONS = [
 
 { year: 2021, type: "journal", faculty: "saha", authors: "R. K. Saha", title: "Spectrum Allocation and Reuse in 5G New Radio on Licensed and Unlicensed Millimeter-Wave Bands in Indoor Environments", venue: "Mobile Information Systems, 2021, Art. 5538820", url: "https://doi.org/10.1155/2021/5538820" },  // 2021 (KDDI-era)
 
-
+];
 /* ---------------- CONFERENCES ---------------------------------------------
    You asked for BRAC conferences "from 2024 onward" — but Dr. Saha has NO
    conference papers in 2022, 2023, 2024, or 2025. His most recent conference
