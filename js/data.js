@@ -356,11 +356,6 @@ const PUBLICATIONS = [
    The Japanese patent (JP 2019-031876) is dated 2019 (KDDI-era). Keep it or
    drop it — your call. It is not a BRAC-affiliation item.
    -------------------------------------------------------------------------- */
-
-/* ===========================================================================
-   TEAM  —  research assistants & collaborators (placeholders)
-   Replace / add entries as people join. tag: "RA" | "COLLAB" | "OPEN"
-   ========================================================================= */
 const TEAM = [
   { name: "Open position",  role: "Research Assistant",   area: "MSc / Undergraduate — we're recruiting.", tag: "OPEN",   link: "contact.html" },
   { name: "Your name here", role: "Research Assistant",   area: "Placeholder — edit in js/data.js → TEAM.", tag: "RA" },
