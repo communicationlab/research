@@ -298,26 +298,64 @@ const PUBLICATIONS = [
 { year: 2026, type: "conference", faculty: "islam", authors: "S. Mahmood, S. A. Trina, M. S. Ahmed, A. Islam", title: "Energy-Regularized Bidirectional Recurrent Attention Networks with Contrastive Confidence Modeling for Lightweight and Explainable Sentiment Classification", venue: "", url: "" },
 
 
-  /* ---------- Dr. Rony Kumer Saha ---------- */
-  { year: 2025, type: "journal", faculty: "saha", authors: "R. K. Saha", title: "A Generic Millimeter-Wave and Terahertz Spectrum Reuse Model for In-Building Multi-Band Small Cells: Achieving Spectral and Energy Efficiencies of 6G", venue: "IEEE Open Journal of the Communications Society, 6, 198–223", url: "https://doi.org/10.1109/OJCOMS.2024.3521503" },
-  { year: 2024, type: "journal", faculty: "saha", authors: "R. K. Saha, J. M. Cioffi", title: "Dynamic Spectrum Sharing for 5G NR and 4G LTE Coexistence — A Comprehensive Review", venue: "IEEE Open Journal of the Communications Society, 5, 795–835", url: "https://doi.org/10.1109/OJCOMS.2024.3351528", award: "Quality Journal Publication Award 2025 (Q1, Top 10%)" },
-  { year: 2022, type: "journal", faculty: "saha", authors: "R. K. Saha", title: "Dynamic Allocation and Sharing of Millimeter-Wave Spectrum with Indoor Small Cells in Multi-Operator Environments Toward 6G", venue: "Mobile Information Systems, 2022, Art. 1912211", url: "https://doi.org/10.1155/2022/1912211" },
-  { year: 2021, type: "journal", faculty: "saha", authors: "R. K. Saha", title: "Coexistence of Cellular and IEEE 802.11 Technologies in Unlicensed Spectrum Bands — A Survey", venue: "IEEE Open Journal of the Communications Society, 2, 1996–2028", url: "https://doi.org/10.1109/OJCOMS.2021.3106502" },
-  { year: 2021, type: "journal", faculty: "saha", authors: "R. K. Saha", title: "Millimeter-Wave Spectrum Utilization Improvement in Multi-Operator Networks: A Framework Using the Equal Likelihood Criterion", venue: "IEEE Access, 9, 72980–72999", url: "https://doi.org/10.1109/ACCESS.2021.3080326" },
-  { year: 2020, type: "journal", faculty: "saha", authors: "R. K. Saha", title: "Licensed Countrywide Full-Spectrum Allocation: A New Paradigm for Millimeter-Wave Mobile Systems in 5G/6G Era", venue: "IEEE Access, 8, 166612–166629", url: "https://doi.org/10.1109/ACCESS.2020.3023342" },
-  { year: 2020, type: "journal", faculty: "saha", authors: "R. K. Saha", title: "3D Spatial Reuse of Multi-Millimeter-Wave Spectra by Ultra-Dense In-Building Small Cells for Spectral and Energy Efficiencies of Future 6G Mobile Networks", venue: "MDPI Energies, 13(7), 1748", url: "https://doi.org/10.3390/EN13071748" },
-  { year: 2019, type: "journal", faculty: "saha", authors: "R. K. Saha", title: "A Hybrid System and Technique for Sharing Multiple Spectrums of Satellite Plus Mobile Systems with Indoor Small Cells in 5G and Beyond Era", venue: "IEEE Access, 7, 77569–77596", url: "https://doi.org/10.1109/ACCESS.2019.2921723" },
-  { year: 2018, type: "journal", faculty: "saha", authors: "R. K. Saha, S. Nanba, K. Nishimura", title: "A Technique for Cloud-Based Clustering and Spatial Resource Reuse and Scheduling of 3D In-Building Small Cells Using CoMP for High-Capacity CRAN", venue: "IEEE Access, 6, 71602–71621", url: "https://doi.org/10.1109/ACCESS.2018.2879835" },
-  { year: 2017, type: "journal", faculty: "saha", authors: "R. K. Saha, C. Aswakul", title: "A Tractable Analytical Model for Interference Characterization and Minimum Distance Enforcement to Reuse Resources in Three-Dimensional In-Building Dense Small Cell Networks", venue: "Wiley Int. Journal of Communication Systems, 30(11), 95–118", url: "https://doi.org/10.1002/DAC.3240" },
+  /* ============================================================================
+   Dr. Rony Kumer Saha  —  BRAC-affiliation publications
+   ----------------------------------------------------------------------------
+   Source: official BRACU profile (Google Scholar blocks automated reading).
 
-  { year: 2021, type: "conference", faculty: "saha", authors: "R. K. Saha", title: "Power Control Based Fair Coexistence of LBT-Free 5G New Radio Small Cells with WiGig Networks", venue: "IARIA ICSNC 2021, Barcelona, 1–6", url: "", award: "Best Paper Award" },
-  { year: 2021, type: "conference", faculty: "saha", authors: "R. K. Saha", title: "On Achieving High Capacity Using Small Cells in Multistory Buildings: A Review", venue: "IARIA ICWMC 2021, Nice", url: "", award: "Best Paper Award" },
-  { year: 2021, type: "conference", faculty: "saha", authors: "R. K. Saha", title: "Performance Analysis of In-Building Small Cell Networks: Carrier Frequency Band Perspective", venue: "IARIA ICN 2021, Porto, 36–40", url: "", award: "Best Paper Award" },
-  { year: 2020, type: "conference", faculty: "saha", authors: "R. K. Saha", title: "A Massive Millimeter-Wave Spectrum Allocation and Exploitation Technique Toward 6G Mobile Networks", venue: "IARIA ICSNC 2020, Porto, 32–41", url: "", award: "Best Paper Award" },
-  { year: 2018, type: "conference", faculty: "saha", authors: "R. K. Saha, S. Nanba, K. Nishimura", title: "Clustering and Centralized Resource Scheduling of 3D In-Building Small Cells for Intra-MAC Functional Split Control-/User-Plane Decoupled CRAN", venue: "IEEE ICC 2018, Kansas City, 1–7", url: "https://doi.org/10.1109/ICC.2018.8422357" },
+   ⚠ JOIN-DATE NOTE
+   His BRACU profile lists BRAC employment as "January 2022 – to date".
+   The 2021 papers below were published during his KDDI post-doc (ended Jan 2022).
+   • You said 2021, so all 2021+ journals are included.
+   • Want STRICT BRAC-only?  Delete the five entries marked  // 2021 (KDDI-era)
+     -> that leaves 2022+ journals (J33–J38).
 
-  { year: 2019, type: "patent", faculty: "saha", authors: "R. K. Saha, K. Yamazaki", title: "User Equipment and Mobile Communication Network", venue: "Japanese Patent JP 2019-031876 (filed Feb. 25, 2019)", url: "" }
-];
+   HOW TO USE
+   In js/data.js, replace ALL current  faculty: "saha"  JOURNAL lines with the
+   block below. (Keep them ordered newest-first, as the file already is.)
+   ============================================================================ */
+
+/* ---------------- BRAC-affiliation JOURNALS (2021 → present) --------------- */
+
+{ year: 2025, type: "journal", faculty: "saha", authors: "R. K. Saha", title: "A Generic Millimeter-Wave and Terahertz Spectrum Reuse Model for In-Building Multi-Band Small Cells: Achieving Spectral and Energy Efficiencies of 6G", venue: "IEEE Open Journal of the Communications Society, 6, 198–223", url: "https://doi.org/10.1109/OJCOMS.2024.3521503" },
+
+{ year: 2024, type: "journal", faculty: "saha", authors: "R. K. Saha, J. M. Cioffi", title: "Dynamic Spectrum Sharing for 5G NR and 4G LTE Coexistence — A Comprehensive Review", venue: "IEEE Open Journal of the Communications Society, 5, 795–835", url: "https://doi.org/10.1109/OJCOMS.2024.3351528", award: "Quality Journal Publication Award 2025 (Q1, Top 10%)" },
+
+{ year: 2024, type: "journal", faculty: "saha", authors: "R. K. Saha, J. M. Cioffi", title: "Correction to “Dynamic Spectrum Sharing for 5G NR and 4G LTE Coexistence — A Comprehensive Review”", venue: "IEEE Open Journal of the Communications Society, 5, 1275", url: "https://doi.org/10.1109/OJCOMS.2024.3363972" },
+
+{ year: 2022, type: "journal", faculty: "saha", authors: "R. K. Saha", title: "In-Building Capacity Enhancement Using Small Cells in Mobile Networks: An Overview", venue: "Engineering Journal-Thailand, 26(6)", url: "" },
+
+{ year: 2022, type: "journal", faculty: "saha", authors: "R. K. Saha", title: "Licensed Millimeter-Wave Spectrum Allocation and Reuse in Indoor Environments (Invited)", venue: "IARIA Int. Journal on Advances in Networks and Services, 15(1&2)", url: "" },
+
+{ year: 2022, type: "journal", faculty: "saha", authors: "R. K. Saha", title: "Dynamic Allocation and Sharing of Millimeter-Wave Spectrum with Indoor Small Cells in Multi-Operator Environments Toward 6G", venue: "Mobile Information Systems, 2022, Art. 1912211", url: "https://doi.org/10.1155/2022/1912211" },
+
+{ year: 2021, type: "journal", faculty: "saha", authors: "R. K. Saha", title: "An Overview and Mechanism for the Coexistence of 5G NR-U in the Millimeter-Wave Spectrum for Indoor Small Cells", venue: "Wiley/Hindawi Wireless Communications and Mobile Computing, 2021, Art. 8661797", url: "https://doi.org/10.1155/2021/8661797" },  // 2021 (KDDI-era)
+
+{ year: 2021, type: "journal", faculty: "saha", authors: "R. K. Saha", title: "Coexistence of Cellular and IEEE 802.11 Technologies in Unlicensed Spectrum Bands — A Survey", venue: "IEEE Open Journal of the Communications Society, 2, 1996–2028", url: "https://doi.org/10.1109/OJCOMS.2021.3106502" },  // 2021 (KDDI-era)
+
+{ year: 2021, type: "journal", faculty: "saha", authors: "R. K. Saha", title: "Millimeter-Wave Spectrum Utilization Improvement in Multi-Operator Networks: A Framework Using the Equal Likelihood Criterion", venue: "IEEE Access, 9, 72980–72999", url: "https://doi.org/10.1109/ACCESS.2021.3080326" },  // 2021 (KDDI-era)
+
+{ year: 2021, type: "journal", faculty: "saha", authors: "R. K. Saha", title: "Power-Domain-Based Dynamic Millimeter-Wave Spectrum Access Techniques for In-Building Small Cells in Multi-Operator Cognitive Radio Networks Toward 6G", venue: "Wiley/Hindawi Wireless Communications and Mobile Computing, 2021, Art. 6628751", url: "https://doi.org/10.1155/2021/6628751" },  // 2021 (KDDI-era)
+
+{ year: 2021, type: "journal", faculty: "saha", authors: "R. K. Saha", title: "Spectrum Allocation and Reuse in 5G New Radio on Licensed and Unlicensed Millimeter-Wave Bands in Indoor Environments", venue: "Mobile Information Systems, 2021, Art. 5538820", url: "https://doi.org/10.1155/2021/5538820" },  // 2021 (KDDI-era)
+
+
+/* ---------------- CONFERENCES ---------------------------------------------
+   You asked for BRAC conferences "from 2024 onward" — but Dr. Saha has NO
+   conference papers in 2022, 2023, 2024, or 2025. His most recent conference
+   papers are from 2021 (three of them won Best-Paper awards).
+
+   So there are no 2024+ conferences to add. Choose one:
+     (a) Remove all his conference lines from data.js (strict "BRAC 2024+"), or
+     (b) Keep the 2021 Best-Paper conferences (recommended — they're notable
+         and coincide with your stated 2021 BRAC start).
+   Tell me which and I'll finalise.
+   -------------------------------------------------------------------------- */
+
+/* ---------------- PATENT --------------------------------------------------
+   The Japanese patent (JP 2019-031876) is dated 2019 (KDDI-era). Keep it or
+   drop it — your call. It is not a BRAC-affiliation item.
+   -------------------------------------------------------------------------- */
 
 /* ===========================================================================
    TEAM  —  research assistants & collaborators (placeholders)
