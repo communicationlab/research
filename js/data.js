@@ -21,7 +21,7 @@ const SITE = {
   school: "BSRM School of Engineering, BRAC University",
   address: "Kha-224, Bir Uttam Rafiqul Islam Ave, Merul Badda, Dhaka 1212, Bangladesh",
   email: "rony.saha@bracu.ac.bd  or amirul.islam@bracu.ac.bd",         
-  //phone: "+880 9638 464646",
+  //phone: "+880 9638 464646",//
   mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.296056615635!2d90.42047627822032!3d23.772469623619408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c78e49160331%3A0x2fd8ec432cec9fc4!2sBRAC%20University!5e0!3m2!1sen!2sbd!4v1707842777541!5m2!1sen!2sbd",
 
   // Hero copy (home page)
@@ -53,7 +53,7 @@ const PEOPLE = [
     links: {
       profile: "https://engineering.bracu.ac.bd/profile/rony-kumer-saha-phd",
       website: "https://sites.google.com/site/rks107976/crictec/home",
-      scholar: "https://scholar.google.com/",
+     // scholar: "https://scholar.google.com/",
      // researchgate: "https://www.researchgate.net/profile/Rony-Saha-4?ev=hdr_xprf"
     },
     short: "Associate Professor of EEE and member of the Dynamic Spectrum Management Group at Stanford's STAR Laboratory. Fifteen years of research in mobile wireless communications across academia and industry, with 75+ peer-reviewed papers and a Japanese patent.",
