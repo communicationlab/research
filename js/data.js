@@ -135,7 +135,7 @@ const PEOPLE = [
       { value: "1600+", label: "Citations" },
       { value: "DRL",   label: "for uRLLC" },
       { value: "30+",   label: "Publications" },
-      { value: "IEEE",  label: "TCOM · TMC · TITS" }
+      { value: "ML",  label: "for Comm" }
     ]
   }
 ];
