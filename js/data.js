@@ -14,7 +14,7 @@
    ========================================================================== */
 
 const SITE = {
-  labName:  "Communication Networks and Systems Research Group",
+  labName:  "Communication Networks and Systems Research Cluster",
   labShort: "C2NS",
   subtitle: "Wireless · Optical · Intelligent Communication Systems",
   department: "Department of Electrical & Electronic Engineering",
