@@ -361,9 +361,15 @@ const PUBLICATIONS = [
    -------------------------------------------------------------------------- */
 const TEAM = [
 
-{ name: "Md. Forhad Javed",  role: "Graduate Student Researcher",  area: " Dynamic Spectrum Sharing", },
-{ name: "Open position",  role: "Research Assistant",   area: "MSc / Undergraduate — we're recruiting.", tag: "OPEN",   link: "contact.html" },
+{ name: "Md. Forhad Javed",  role: "Graduate Student Researcher",  area: "Dynamic Spectrum Sharing in future mobile networks", tag: "Supervisor: Dr. Rony Kumer Saha" },
+{ name: "Mir Hamidul Hussain",  role: "Graduate Student Researcher",   area: "Communication Systems, Wireless Networks, Machine Learning, Artificial Intelligence, Signal Processing, and Next-Generation Communication Technologies ", tag: "Supervisor: Dr. Rony Kumer Saha" },  
+{ name: "M.B.M Abdullah",  role: "Graduate Student Researcher",   area: "6G & 5G Coexistence, AI & ML", tag: "Supervisor: Dr. Rony Kumer Saha" },
+{ name: "Tasnia Alam Tasfia",  role: "Graduate Student Researcher",   area: "4G/5G/6G Mobile Communications, Wireless Communications, Radio Resource Management, Coexistence Studies, Channel Modeling, Heterogeneous Networks", tag: "Supervisor: Dr. Rony Kumer Saha" },
+
+    
+/* { name: "Open position",  role: "Research Assistant",   area: "MSc / Undergraduate — we're recruiting.", tag: "OPEN",   link: "contact.html" },
 { name: "Your name here", role: "Research Assistant",   area: "Placeholder — edit in js/data.js → TEAM.", tag: "RA" },
 { name: "Your name here", role: "Research Assistant",   area: "Placeholder — edit in js/data.js → TEAM.", tag: "RA" },
-{ name: "Collaborator",   role: "External / Visiting",  area: "Placeholder — add collaborators here.",    tag: "COLLAB" }
+{ name: "Collaborator",   role: "External / Visiting",  area: "Placeholder — add collaborators here.",    tag: "COLLAB" } */
+   
 ];
