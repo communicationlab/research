@@ -14,10 +14,10 @@
    ========================================================================== */
 
 const SITE = {
-  labName:  "Communication Networks and Systems Research Cluster",
+  labName:  "Research Cluster of Communication Networks and Systems",
   labShort: "C2NS",
-  subtitle: "Wireless · Optical · Intelligent Communication Systems",
-  department: "Department of Electrical & Electronic Engineering",
+  subtitle: "Mobile · Wireless · Optical · Intelligent Communication Systems",
+  department: "Department of Electrical and Electronic Engineering",
   school: "BSRM School of Engineering, BRAC University",
   address: "Kha-224, Bir Uttam Rafiqul Islam Ave, Merul Badda, Dhaka 1212, Bangladesh",
   email: "bracu.ac.bd",          // <- lab contact email (edit to your real one)
@@ -27,7 +27,7 @@ const SITE = {
   // Hero copy (home page)
   heroKicker: "BRAC University · EEE",
   heroTitle: "Engineering how information moves through spectrum and space.",
-  heroLead: "We research next-generation wireless, optical, and intelligent communication systems — from dynamic spectrum sharing and 6G to optical camera communication and deep-reinforcement-learned networks.",
+  heroLead: "We research next-generation mobile, wireless, optical, and intelligent communication systems — from dynamic spectrum sharing and 6G to optical camera communication and deep-reinforcement-learned networks.",
 
   // Headline numbers on the home page (edit freely)
   stats: [
