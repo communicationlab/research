@@ -131,11 +131,11 @@ const PEOPLE = [
       "Optimization strategies",
       "B5G / 6G wireless communication"
     ],
-    stats: [
-      { value: "IEEE",  label: "TCOM · TMC · TITS" },
+    stats: [      
       { value: "1600+", label: "Citations" },
       { value: "DRL",   label: "for uRLLC" },
-      { value: "30+",   label: "Publications" }
+      { value: "30+",   label: "Publications" },
+      { value: "IEEE",  label: "TCOM · TMC · TITS" }
     ]
   }
 ];
