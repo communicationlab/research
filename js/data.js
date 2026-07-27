@@ -329,15 +329,6 @@ const PUBLICATIONS = [
 
 { year: 2022, type: "journal", faculty: "saha", authors: "R. K. Saha", title: "Dynamic Allocation and Sharing of Millimeter-Wave Spectrum with Indoor Small Cells in Multi-Operator Environments Toward 6G", venue: "Mobile Information Systems, 2022, Art. 1912211", url: "https://doi.org/10.1155/2022/1912211" },
 
-{ year: 2021, type: "journal", faculty: "saha", authors: "R. K. Saha", title: "An Overview and Mechanism for the Coexistence of 5G NR-U in the Millimeter-Wave Spectrum for Indoor Small Cells", venue: "Wiley/Hindawi Wireless Communications and Mobile Computing, 2021, Art. 8661797", url: "https://doi.org/10.1155/2021/8661797" },  // 2021 (KDDI-era)
-
-{ year: 2021, type: "journal", faculty: "saha", authors: "R. K. Saha", title: "Coexistence of Cellular and IEEE 802.11 Technologies in Unlicensed Spectrum Bands — A Survey", venue: "IEEE Open Journal of the Communications Society, 2, 1996–2028", url: "https://doi.org/10.1109/OJCOMS.2021.3106502" },  // 2021 (KDDI-era)
-
-{ year: 2021, type: "journal", faculty: "saha", authors: "R. K. Saha", title: "Millimeter-Wave Spectrum Utilization Improvement in Multi-Operator Networks: A Framework Using the Equal Likelihood Criterion", venue: "IEEE Access, 9, 72980–72999", url: "https://doi.org/10.1109/ACCESS.2021.3080326" },  // 2021 (KDDI-era)
-
-{ year: 2021, type: "journal", faculty: "saha", authors: "R. K. Saha", title: "Power-Domain-Based Dynamic Millimeter-Wave Spectrum Access Techniques for In-Building Small Cells in Multi-Operator Cognitive Radio Networks Toward 6G", venue: "Wiley/Hindawi Wireless Communications and Mobile Computing, 2021, Art. 6628751", url: "https://doi.org/10.1155/2021/6628751" },  // 2021 (KDDI-era)
-
-{ year: 2021, type: "journal", faculty: "saha", authors: "R. K. Saha", title: "Spectrum Allocation and Reuse in 5G New Radio on Licensed and Unlicensed Millimeter-Wave Bands in Indoor Environments", venue: "Mobile Information Systems, 2021, Art. 5538820", url: "https://doi.org/10.1155/2021/5538820" },  // 2021 (KDDI-era)
 
 ];
 /* ---------------- CONFERENCES ---------------------------------------------
