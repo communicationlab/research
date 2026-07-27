@@ -361,10 +361,9 @@ const PUBLICATIONS = [
    -------------------------------------------------------------------------- */
 const TEAM = [
 
-{ name: "Md. Forhad Javed",  role: "Graduate Student Researcher",   area: " M.Sc. in EEE ", Supervisor: “Dr. Rony Kumer Saha”, undergraduate: "EEE from, Bangladesh Army International University of Science and Technology" },
-   
-  { name: "Open position",  role: "Research Assistant",   area: "MSc / Undergraduate — we're recruiting.", tag: "OPEN",   link: "contact.html" },
-  { name: "Your name here", role: "Research Assistant",   area: "Placeholder — edit in js/data.js → TEAM.", tag: "RA" },
-  { name: "Your name here", role: "Research Assistant",   area: "Placeholder — edit in js/data.js → TEAM.", tag: "RA" },
-  { name: "Collaborator",   role: "External / Visiting",  area: "Placeholder — add collaborators here.",    tag: "COLLAB" }
+{ name: "Md. Forhad Javed",  role: "Graduate Student Researcher",  area: " Dynamic Spectrum Sharing", },
+{ name: "Open position",  role: "Research Assistant",   area: "MSc / Undergraduate — we're recruiting.", tag: "OPEN",   link: "contact.html" },
+{ name: "Your name here", role: "Research Assistant",   area: "Placeholder — edit in js/data.js → TEAM.", tag: "RA" },
+{ name: "Your name here", role: "Research Assistant",   area: "Placeholder — edit in js/data.js → TEAM.", tag: "RA" },
+{ name: "Collaborator",   role: "External / Visiting",  area: "Placeholder — add collaborators here.",    tag: "COLLAB" }
 ];
