@@ -317,6 +317,12 @@ const PUBLICATIONS = [
 
 /* ---------------- BRAC-affiliation JOURNALS (2021 → present) --------------- */
 
+{ year: 2026, type: "journal", faculty: "saha", authors: "R. K. Saha", title: "Multi-MNO Dynamic Spectrum Sharing Between LTE and NR Technologies in Indoor Small Cell Networks", venue: "IEEE Access, 14, 90509-90527", url: "https://doi.org/10.1109/ACCESS.2026.3702365" },
+   
+{ year: 2025, type: "journal", faculty: "saha", authors: "R. K. Saha", title: "MBSFN Subframe-Based Dynamic Spectrum Sharing Between LTE and NR in 3D In-Building Small Cell Networks", venue: "IEEE Access, 13, 202062-202085", url: "https://doi.org/10.1109/ACCESS.2025.3636734" },
+   
+{ year: 2025, type: "journal", faculty: "saha", authors: "R. K. Saha", title: "How Does DSS Work Between LTE and NR Systems?—Requirements, Techniques, and Lessons Learned", venue: "Technologies, 13, no. 502", url: "https://doi.org/10.3390/technologies13110502"},
+   
 { year: 2025, type: "journal", faculty: "saha", authors: "R. K. Saha", title: "A Generic Millimeter-Wave and Terahertz Spectrum Reuse Model for In-Building Multi-Band Small Cells: Achieving Spectral and Energy Efficiencies of 6G", venue: "IEEE Open Journal of the Communications Society, 6, 198–223", url: "https://doi.org/10.1109/OJCOMS.2024.3521503" },
 
 { year: 2024, type: "journal", faculty: "saha", authors: "R. K. Saha, J. M. Cioffi", title: "Dynamic Spectrum Sharing for 5G NR and 4G LTE Coexistence — A Comprehensive Review", venue: "IEEE Open Journal of the Communications Society, 5, 795–835", url: "https://doi.org/10.1109/OJCOMS.2024.3351528", award: "Quality Journal Publication Award 2025 (Q1, Top 10%)" },
@@ -330,7 +336,7 @@ const PUBLICATIONS = [
 { year: 2022, type: "journal", faculty: "saha", authors: "R. K. Saha", title: "Dynamic Allocation and Sharing of Millimeter-Wave Spectrum with Indoor Small Cells in Multi-Operator Environments Toward 6G", venue: "Mobile Information Systems, 2022, Art. 1912211", url: "https://doi.org/10.1155/2022/1912211" },
 
 
-];
+
 /* ---------------- CONFERENCES ---------------------------------------------
    You asked for BRAC conferences "from 2024 onward" — but Dr. Saha has NO
    conference papers in 2022, 2023, 2024, or 2025. His most recent conference
@@ -342,6 +348,11 @@ const PUBLICATIONS = [
          and coincide with your stated 2021 BRAC start).
    Tell me which and I'll finalise.
    -------------------------------------------------------------------------- */
+{ year: 2026, type: "conference", faculty: "saha", authors: "R. K. Saha", title: "Multi-Operator Dynamic Spectrum Sharing for LTE and NR Coexistence", venue: "2025 28th International Conference on Computer and Information Technology (ICCIT), Cox's Bazar, Bangladesh, 2025, 4765-4770", url: "https://doi.org/10.1109/ICCIT68739.2025.11491314" },
+
+{ year: 2026, type: "conference", faculty: "saha", authors: "R. K. Saha", title: "A Novel Approach for Dynamic Spectrum Sharing Between LTE and NR in Heterogeneous Networks", venue: "2025 7th International Conference on Electrical Information and Communication Technology (EICT), Khulna, Bangladesh, 1-6", url: "https://doi.org/10.1109/EICT68394.2025.11355517" },
+
+];
 
 /* ---------------- PATENT --------------------------------------------------
    The Japanese patent (JP 2019-031876) is dated 2019 (KDDI-era). Keep it or
