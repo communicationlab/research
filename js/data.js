@@ -49,7 +49,7 @@ const PEOPLE = [
     photo: "https://engineering.bracu.ac.bd/uploads/bsrm-members/1743741145.jpg",
     room: "4E04",
     ext: "1808",
-    tags: ["6G", "Spectrum Sharing", "mmWave / THz", "Small Cells"],
+    tags: ["5G", "6G", "Satellite-Mobile Networks", "Dynamic Spectrum Sharing", "Radio Resource Management", "Multi-MNO", "3D In-building Networks", "Millimeter Wave / Terahertz", "Small Cells"],
     links: {
       profile: "https://engineering.bracu.ac.bd/profile/rony-kumer-saha-phd",
       website: "https://sites.google.com/site/rks107976/crictec/home",
