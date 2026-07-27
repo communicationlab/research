@@ -349,9 +349,9 @@ const PUBLICATIONS = [
    Tell me which and I'll finalise.
    -------------------------------------------------------------------------- */
 
-{ year: 2026, type: "conference", faculty: "saha", authors: "R. K. Saha", title: "Multi-Operator Dynamic Spectrum Sharing for LTE and NR Coexistence", venue: "2025 28th International Conference on Computer and Information Technology (ICCIT), Cox's Bazar, Bangladesh, 2025, 4765-4770", url: "https://doi.org/10.1109/ICCIT68739.2025.11491314" },
+{ year: 2025, type: "conference", faculty: "saha", authors: "R. K. Saha", title: "Multi-Operator Dynamic Spectrum Sharing for LTE and NR Coexistence", venue: "2025 28th International Conference on Computer and Information Technology (ICCIT), Cox's Bazar, Bangladesh, 2025, 4765-4770", url: "https://doi.org/10.1109/ICCIT68739.2025.11491314" },
 
-{ year: 2026, type: "conference", faculty: "saha", authors: "R. K. Saha", title: "A Novel Approach for Dynamic Spectrum Sharing Between LTE and NR in Heterogeneous Networks", venue: "2025 7th International Conference on Electrical Information and Communication Technology (EICT), Khulna, Bangladesh, 1-6", url: "https://doi.org/10.1109/EICT68394.2025.11355517" },
+{ year: 2025, type: "conference", faculty: "saha", authors: "R. K. Saha", title: "A Novel Approach for Dynamic Spectrum Sharing Between LTE and NR in Heterogeneous Networks", venue: "2025 7th International Conference on Electrical Information and Communication Technology (EICT), Khulna, Bangladesh, 1-6", url: "https://doi.org/10.1109/EICT68394.2025.11355517" },
 
 ];
 
