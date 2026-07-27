@@ -361,8 +361,8 @@ const PUBLICATIONS = [
    -------------------------------------------------------------------------- */
 const TEAM = [
 
-{ name: "Md. Forhad Javed",  role: "Graduate Student Researcher",  area: "Dynamic Spectrum Sharing in future mobile networks", tag: "Supervisor: Dr. Rony Kumer Saha" },
-{ name: "Mir Hamidul Hussain",  role: "Graduate Student Researcher",   area: "Communication Systems, Wireless Networks, Machine Learning, Artificial Intelligence, Signal Processing, and Next-Generation Communication Technologies ", tag: "Supervisor: Dr. Rony Kumer Saha" },  
+{ name: "Md. Forhad Javed",  role: "Graduate Student Researcher",  area: "Dynamic Spectrum Sharing in future mobile networks", tag: "Supervisor: Dr. Rony Kumer Saha",  photo: "https://feniuniversity.ac.bd/public/storage/upload/facultyMembers/resize_356X390/260513101215-3917.jpeg" },
+{ name: "Mir Hamidul Hussain",  role: "Graduate Student Researcher",   area: "Communication Systems, Wireless Networks, Machine Learning, Artificial Intelligence, Signal Processing, and Next-Generation Communication Technologies ", tag: "Supervisor: Dr. Rony Kumer Saha", photo: "https://cse.sds.bracu.ac.bd/storage/media/1048/IMG_1241.jpeg" },  
 { name: "M.B.M Abdullah",  role: "Graduate Student Researcher",   area: "6G & 5G Coexistence, AI & ML", tag: "Supervisor: Dr. Rony Kumer Saha" },
 { name: "Tasnia Alam Tasfia",  role: "Graduate Student Researcher",   area: "4G/5G/6G Mobile Communications, Wireless Communications, Radio Resource Management, Coexistence Studies, Channel Modeling, Heterogeneous Networks", tag: "Supervisor: Dr. Rony Kumer Saha" },
 
