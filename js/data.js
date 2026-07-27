@@ -54,7 +54,7 @@ const PEOPLE = [
       profile: "https://engineering.bracu.ac.bd/profile/rony-kumer-saha-phd",
       website: "https://sites.google.com/site/rks107976/crictec/home",
       scholar: "https://scholar.google.com/",
-      linkedin: ""
+      researchgate: "https://www.researchgate.net/profile/Rony-Saha-4?ev=hdr_xprf"
     },
     short: "Associate Professor of EEE and member of the Dynamic Spectrum Management Group at Stanford's STAR Laboratory. Fifteen years of research in mobile wireless communications across academia and industry, with 75+ peer-reviewed papers and a Japanese patent.",
     bio: [
@@ -64,13 +64,17 @@ const PEOPLE = [
     
     ],
     education: [
-      { deg: "Research Scholar, Electrical Engineering", org: "Stanford University, USA", year: "2023" },
+      { deg: "Research Fellow, Electrical Engineering", org: "Stanford University, USA", year: "2023" },
       { deg: "Postdoctoral Fellow, 5G & Beyond Access Networks", org: "KDDI Research, Inc., Japan", year: "2022" },
       { deg: "Ph.D. in Electrical Engineering", org: "Chulalongkorn University, Thailand", year: "2017" },
       { deg: "M.Eng. in Information & Communications Technologies", org: "Asian Institute of Technology, Thailand", year: "2011" },
-      { deg: "B.Sc. in Electrical & Electronic Engineering", org: "KUET, Bangladesh", year: "2004" }
+      { deg: "M.Sc. Engg. in Electrical and Electronic Engineering (Major in Electronics and Communications) [Incomplete]", org: "Bangladesh University of Engineering and Technology (BUET), Bangladesh", year: "2005" },
+      { deg: "B.Sc. in Electrical & Electronic Engineering", org: "Khulna University of Engineering and Technology (KUET), Bangladesh", year: "2004" }
     ],
     interests: [
+      "AI/ML Applications to 5G/6G Spectrum Sharing and Management",
+      "Coexistence Studies between 5G and 6G Networks", 
+      "Multi-MNO Dynamic Spectrum sharing in 5G/6G networks",
       "Coexistence of 4G LTE and 5G NR — dynamic spectrum sharing in low bands",
       "New Radio Unlicensed (NR-U) coexistence with IEEE 802.11",
       "Terahertz and millimeter-wave communications",
@@ -79,7 +83,7 @@ const PEOPLE = [
       "Co-channel interference mitigation and cancellation",
       "In-building small-cell planning, design and deployment",
       "Radio resource allocation and scheduling",
-      "Cloud-RAN, fronthaul and RAN virtualization / slicing"
+      "Cloud-RAN, fronthaul and RAN virtualization/slicing"
     ],
     stats: [
       { value: "820+", label: "Citations" },
