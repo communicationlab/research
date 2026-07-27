@@ -14,9 +14,9 @@
    ========================================================================== */
 
 const SITE = {
-  labName:  "Research Cluster of Communication Networks and Systems",
-  labShort: "C2NS",
-  subtitle: "Mobile · Wireless · Optical · Intelligent Communication Systems",
+  labName:  "C2NS: Research Cluster of Communication Networks and Systems",
+ // labShort: "C2NS",
+  subtitle: "Mobile, Wireless, Optical, and Intelligent Communication Systems",
   department: "Department of Electrical and Electronic Engineering",
   school: "BSRM School of Engineering, BRAC University",
   address: "Kha-224, Bir Uttam Rafiqul Islam Ave, Merul Badda, Dhaka 1212, Bangladesh",
