@@ -335,7 +335,7 @@ const PUBLICATIONS = [
 
 { year: 2022, type: "journal", faculty: "saha", authors: "R. K. Saha", title: "Dynamic Allocation and Sharing of Millimeter-Wave Spectrum with Indoor Small Cells in Multi-Operator Environments Toward 6G", venue: "Mobile Information Systems, 2022, Art. 1912211", url: "https://doi.org/10.1155/2022/1912211" },
 
-
+];
 
 /* ---------------- CONFERENCES ---------------------------------------------
    You asked for BRAC conferences "from 2024 onward" — but Dr. Saha has NO
@@ -348,11 +348,12 @@ const PUBLICATIONS = [
          and coincide with your stated 2021 BRAC start).
    Tell me which and I'll finalise.
    -------------------------------------------------------------------------- */
-{ year: 2026, type: "conference", faculty: "saha", authors: "R. K. Saha", title: "Multi-Operator Dynamic Spectrum Sharing for LTE and NR Coexistence", venue: "2025 28th International Conference on Computer and Information Technology (ICCIT), Cox's Bazar, Bangladesh, 2025, 4765-4770", url: "https://doi.org/10.1109/ICCIT68739.2025.11491314" },
+
+/* { year: 2026, type: "conference", faculty: "saha", authors: "R. K. Saha", title: "Multi-Operator Dynamic Spectrum Sharing for LTE and NR Coexistence", venue: "2025 28th International Conference on Computer and Information Technology (ICCIT), Cox's Bazar, Bangladesh, 2025, 4765-4770", url: "https://doi.org/10.1109/ICCIT68739.2025.11491314" },
 
 { year: 2026, type: "conference", faculty: "saha", authors: "R. K. Saha", title: "A Novel Approach for Dynamic Spectrum Sharing Between LTE and NR in Heterogeneous Networks", venue: "2025 7th International Conference on Electrical Information and Communication Technology (EICT), Khulna, Bangladesh, 1-6", url: "https://doi.org/10.1109/EICT68394.2025.11355517" },
 
-];
+*/
 
 /* ---------------- PATENT --------------------------------------------------
    The Japanese patent (JP 2019-031876) is dated 2019 (KDDI-era). Keep it or
