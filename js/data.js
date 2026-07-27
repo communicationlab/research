@@ -301,8 +301,7 @@ const PUBLICATIONS = [
 
 
 /* -------------------------- CONFERENCE PAPERS --------------------------- */
-/* NOTE: conference venue names were not listed on the public records I could
-   reach — please fill in the "venue" text before publishing these two.      */
+/* NOTE: conference venue names were not listed on the public records I could reach — please fill in the "venue" text before publishing these two.      */
 
 { year: 2026, type: "conference", faculty: "islam", authors: "A. S. Sukanna, S. Mahmood, S. A. Trina, A. Islam", title: "A Dual-Recurrent Attention Architecture for High-Recall Sentiment Analysis in Noisy Twitter Texts", venue: "", url: "" },
 
