@@ -72,7 +72,7 @@ const PEOPLE = [
     education: [
       { deg: "Ph.D. in Electrical Engineering", org: "Chulalongkorn University, Thailand", year: "2017" },
       { deg: "M.Eng. in Information & Communications Technologies", org: "Asian Institute of Technology, Thailand", year: "2011" },
-      { deg: "M.Sc. Engg. in Electrical and Electronic Engineering (Major in Electronics and Communications) [Incomplete]", org: "Bangladesh University of Engineering and Technology (BUET), Bangladesh", year: "2005" },
+      /*{ deg: "M.Sc. Engg. in Electrical and Electronic Engineering (Major in Electronics and Communications) [Incomplete]", org: "Bangladesh University of Engineering and Technology (BUET), Bangladesh", year: "2005" },*/
       { deg: "B.Sc. in Electrical & Electronic Engineering", org: "Khulna University of Engineering and Technology (KUET), Bangladesh", year: "2004" }
     ],
     interests: [
