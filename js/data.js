@@ -293,7 +293,7 @@ const PUBLICATIONS = [
  
 /* ---------------------------- JOURNAL PAPERS ---------------------------- */
 
-{ year: 2026, type: "journal", faculty: "islam", authors: "N. N. Karima, S. Ahmad, A. Islam, et al.", title: "Enhancing Short-Term Load Forecasting Using Hyperparameter-Optimized Deep Learning Approaches", venue: "Energies, 19(3), 705", quartile: "Q1", url: "https://doi.org/10.3390/en19030705" },
+{ year: 2026, month: "Jan", type: "journal", status: "published", faculty: "islam", authors: "N. N. Karima, S. Ahmad, A. Islam, et al.", title: "Enhancing Short-Term Load Forecasting Using Hyperparameter-Optimized Deep Learning Approaches", venue: "Energies", volume: "19", issue: "3", pages: "1-30", quartile: "Q1", doi: "10.3390/en19030705", url: "https://doi.org/10.3390/en19030705" },
 
 { year: 2026, type: "journal", faculty: "islam", authors: "A. M. Arika, A. S. N. Huda, S. Ahmad, A. Islam", title: "Vibration-Based Multi-Class Fault Severity Classification of Wind Turbine Gearboxes Using Explainable Machine Learning", venue: "Energy Conversion and Management: X", quartile: "Q1", url: "https://www.sciencedirect.com/science/article/pii/S2590174526001042" },
 
