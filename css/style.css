@@ -252,6 +252,16 @@ body::before{
 .pub__badge--conference{color:var(--mm);border-color:rgba(99,102,241,.45)}
 .pub__badge--patent{color:var(--thz);border-color:rgba(168,85,247,.45)}
 .pub__badge--status{color:#22c55e; border-color:#22c55e55;}
+/* Quartile badge (common style) */
+.pub__badge--quartile{font-weight:600;}
+/* Q1 */
+.pub__badge--q1{color:#22c55e; border-color:rgba(34,197,94,.45); background:rgba(34,197,94,.08);}
+/* Q2 */
+.pub__badge--q2{color:#3b82f6; border-color:rgba(59,130,246,.45); background:rgba(59,130,246,.08);}
+/* Q3 */
+.pub__badge--q3{color:#f59e0b; border-color:rgba(245,158,11,.45); background:rgba(245,158,11,.08);}
+/* Q4 */
+.pub__badge--q4{ color:#9ca3af; border-color:rgba(156,163,175,.45); background:rgba(156,163,175,.08);}
 .pub__who{font-size:.76rem;color:var(--muted)}
 .pub__award{font-size:.72rem;color:#fcd34d;font-family:var(--font-m)}
 .pub__title{margin:0 0 .3rem;font-family:var(--font-d);color:var(--mist);font-size:1.04rem;line-height:1.35;font-weight:500}
