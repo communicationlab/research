@@ -20,8 +20,8 @@ const SITE = {
   department: "Department of Electrical and Electronic Engineering",
   school: "BSRM School of Engineering, BRAC University",
   address: "Kha-224, Bir Uttam Rafiqul Islam Ave, Merul Badda, Dhaka 1212, Bangladesh",
-  email: "rony.saha@bracu.ac.bd  or amirul.islam@bracu.ac.bd",         
-  //phone: "+880 9638 464646",//
+  email: "bracu.ac.bd",          // <- lab contact email (edit to your real one)      
+  phone: "+880 9638 464646",
   mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.296056615635!2d90.42047627822032!3d23.772469623619408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c78e49160331%3A0x2fd8ec432cec9fc4!2sBRAC%20University!5e0!3m2!1sen!2sbd!4v1707842777541!5m2!1sen!2sbd",
 
   // Hero copy (home page)
@@ -301,7 +301,8 @@ const PUBLICATIONS = [
 
 
 /* -------------------------- CONFERENCE PAPERS --------------------------- */
-/* NOTE: conference venue names were not listed on the public records I could reach — please fill in the "venue" text before publishing these two.      */
+/* NOTE: conference venue names were not listed on the public records I could 
+reach — please fill in the "venue" text before publishing these two.      */
 
 { year: 2026, type: "conference", faculty: "islam", authors: "A. S. Sukanna, S. Mahmood, S. A. Trina, A. Islam", title: "A Dual-Recurrent Attention Architecture for High-Recall Sentiment Analysis in Noisy Twitter Texts", venue: "", url: "" },
 
