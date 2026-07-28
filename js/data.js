@@ -293,13 +293,13 @@ const PUBLICATIONS = [
  
 /* ---------------------------- JOURNAL PAPERS ---------------------------- */
 
-{ year: 2026, type: "journal", faculty: "islam", authors: "N. N. Karima, S. Ahmad, A. Islam, et al.", title: "Enhancing Short-Term Load Forecasting Using Hyperparameter-Optimized Deep Learning Approaches", venue: "Energies, 19(3), 705", url: "https://doi.org/10.3390/en19030705" },
+{ year: 2026, type: "journal", faculty: "islam", authors: "N. N. Karima, S. Ahmad, A. Islam, et al.", title: "Enhancing Short-Term Load Forecasting Using Hyperparameter-Optimized Deep Learning Approaches", venue: "Energies, 19(3), 705", quartile: "Q1", url: "https://doi.org/10.3390/en19030705" },
 
-{ year: 2026, type: "journal", faculty: "islam", authors: "A. M. Arika, A. S. N. Huda, S. Ahmad, A. Islam", title: "Vibration-Based Multi-Class Fault Severity Classification of Wind Turbine Gearboxes Using Explainable Machine Learning", venue: "Energy Conversion and Management: X", url: "https://www.sciencedirect.com/science/article/pii/S2590174526001042" },
+{ year: 2026, type: "journal", faculty: "islam", authors: "A. M. Arika, A. S. N. Huda, S. Ahmad, A. Islam", title: "Vibration-Based Multi-Class Fault Severity Classification of Wind Turbine Gearboxes Using Explainable Machine Learning", venue: "Energy Conversion and Management: X", quartile: "Q1", url: "https://www.sciencedirect.com/science/article/pii/S2590174526001042" },
 
-{ year: 2026, type: "journal", faculty: "islam", authors: "U. Dev, M. R. Uddin, S. Ahmad, A. Islam, A. S. N. Huda, et al.", title: "Edge Cutting and AI-Driven Protection Strategies for DC Microgrids: A Comprehensive Survey of Challenges, Technologies, and Future Trends", venue: "Results in Engineering, vol. 30", url: "https://www.sciencedirect.com/science/article/pii/S2590123026010509" },
+{ year: 2026, type: "journal", faculty: "islam", authors: "U. Dev, M. R. Uddin, S. Ahmad, A. Islam, A. S. N. Huda, et al.", title: "Edge Cutting and AI-Driven Protection Strategies for DC Microgrids: A Comprehensive Survey of Challenges, Technologies, and Future Trends", venue: "Results in Engineering, vol. 30", quartile: "Q1", url: "https://www.sciencedirect.com/science/article/pii/S2590123026010509" },
 
-{ year: 2026, type: "journal", faculty: "islam", authors: "S. Mahmood, S. A. Trina, A. S. Sukanna, M. S. Ahmed, A. Islam", title: "Multi-Model Deep Ensemble Framework for Early Diagnosis of Rare Genetic Disorders Using Genomic, Phenotypic, and EHR Data Fusion", venue: "Indonesian Journal of Electrical Engineering and Computer Science", url: "https://ijeecs.iaescore.com/index.php/IJEECS/article/view/45153/19971" },
+{ year: 2026, type: "journal", faculty: "islam", authors: "S. Mahmood, S. A. Trina, A. S. Sukanna, M. S. Ahmed, A. Islam", title: "Multi-Model Deep Ensemble Framework for Early Diagnosis of Rare Genetic Disorders Using Genomic, Phenotypic, and EHR Data Fusion", venue: "Indonesian Journal of Electrical Engineering and Computer Science", quartile: "Q4", url: "https://ijeecs.iaescore.com/index.php/IJEECS/article/view/45153/19971" },
 
 { year: 2026, month: "Apr", type: "journal", status: "published", faculty: "islam", authors: "A. Islam, T. Hossain, R. Basak, Md. S. R. Zishan", title: "Dynamic Power Allocation for Rate Optimization in Vehicular Reliable and Low-latency Camera Communications", venue: "ETRI Journal", volume: "48", issue: "2", pages: "219 – 323", quartile: "Q2", doi: "10.4218/etrij.2025-0010", url: "https://onlinelibrary.wiley.com/doi/10.4218/etrij.2025-0010" },
 
