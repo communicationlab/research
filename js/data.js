@@ -297,7 +297,7 @@ const PUBLICATIONS = [
 
 { year: 2026, type: "journal", faculty: "islam", authors: "S. Mahmood, S. A. Trina, A. S. Sukanna, M. S. Ahmed, A. Islam", title: "Multi-Model Deep Ensemble Framework for Early Diagnosis of Rare Genetic Disorders Using Genomic, Phenotypic, and EHR Data Fusion", venue: "Indonesian Journal of Electrical Engineering and Computer Science", url: "https://ijeecs.iaescore.com/index.php/IJEECS/article/view/45153/19971" },
 
-{ year: 2026, month: "April", type: "journal", faculty: "islam", authors: "A. Islam, T. Hossain, R. Basak, Md. S. R. Zishan", title: "Dynamic Power Allocation for Rate Optimization in Vehicular Reliable and Low-latency Camera Communications", venue: "ETRI Journal, volume: "48", issue: "2", pages: "219 – 323", url: "https://onlinelibrary.wiley.com/doi/10.4218/etrij.2025-0010" },
+{ year: 2026, month: "April", type: "journal", faculty: "islam", authors: "A. Islam, T. Hossain, R. Basak, Md. S. R. Zishan", title: "Dynamic Power Allocation for Rate Optimization in Vehicular Reliable and Low-latency Camera Communications", venue: "ETRI Journal", volume: "48", issue: "2", pages: "219 – 323", url: "https://onlinelibrary.wiley.com/doi/10.4218/etrij.2025-0010" },
 
 
 /* -------------------------- CONFERENCE PAPERS --------------------------- */
