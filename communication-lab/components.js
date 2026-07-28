@@ -223,7 +223,7 @@ function pubRow(p) {
           ${p.award ? `<span class="pub__award">★ ${p.award}</span>` : ""}
         </div>
         <p class="pub__title">${p.url ? `<a href="${p.url}" target="_blank" rel="noopener">${p.title}</a>` : p.title}</p>
-        <p class="pub__meta"><span class="pub__authors" data-authors="${p.authors.replace(/"/g,'&quot;')}">${hlAuthors(p.authors, "all")}</span> · <em>${p.venue}</em></p>
+        <p class="pub__meta"><span class="pub__authors" data-authors="${p.authors.replace(/"/g,'&quot;')}">${hlAuthors(p.authors, "all")}</span> · <em>${p.venue}</em>  ${p.volume ? `, vol. ${p.volume}` : ""} ${p.issue ? `, no. ${p.issue}` : ""} ${p.pages ? `, pp. ${p.pages}` : ""} ${p.month ? `, ${p.month}` : ""}</p>
       </div>
     </li>`;
 }
