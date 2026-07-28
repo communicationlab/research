@@ -211,6 +211,40 @@ function renderPeopleFull(mountSel) {
   }).join("");
 }
 
+function pubDetails(p) {
+    const parts = [];
+    switch (p.type) {
+        case "journal":
+            if (p.volume)
+                parts.push(`vol. ${p.volume}`);
+            if (p.issue)
+                parts.push(`no. ${p.issue}`);
+            if (p.pages)
+                parts.push(`pp. ${p.pages}`);
+            break;
+        case "conference":
+            if (p.location)
+                parts.push(p.location);
+            if (p.pages)
+                parts.push(`pp. ${p.pages}`);
+            break;
+        case "patent":
+            if (p.number)
+                parts.push(`Patent No. ${p.number}`);
+            break;
+    }
+    if (p.month)
+        parts.push(`${p.month}. ${p.year}`);
+    else if (p.year)
+        parts.push(p.year);
+    if (p.doi)
+        parts.push(
+            `DOI: <a href="https://doi.org/${p.doi}" target="_blank" rel="noopener">${p.doi}</a>`
+        );
+    return parts.join(", ");
+}
+
+
 function pubRow(p) {
   const badge = p.type === "patent" ? "Patent" : p.type === "journal" ? "Journal" : "Conference";
   return `
@@ -223,8 +257,8 @@ function pubRow(p) {
           ${p.award ? `<span class="pub__award">★ ${p.award}</span>` : ""}
         </div>
         <p class="pub__title">${p.url ? `<a href="${p.url}" target="_blank" rel="noopener">${p.title}</a>` : p.title}</p>
-        <p class="pub__meta">  <span class="pub__authors" data-authors="${p.authors.replace(/"/g,'&quot;')}">     ${hlAuthors(p.authors, "all")}  </span>  ·  <em>${p.venue}</em>  ${p.volume ? `, vol. ${p.volume}` : ""}  ${p.issue ? `, no. ${p.issue}` : ""}  ${p.pages ? `, pp. ${p.pages}` : ""}  ${p.month ? `, ${p.month}` : ""}  ${p.year ? `, ${p.year}` : ""}</p>
-      </div>
+        <p class="pub__meta"> <span class="pub__authors" data-authors="${p.authors.replace(/"/g,'&quot;')}"> ${hlAuthors(p.authors,"all")} </span> · <em>${p.venue}</em> ${pubDetails(p) ? ", " + pubDetails(p) : ""} </p>       
+        </div>
     </li>`;
 }
 function renderPublications(mountSel, opts = {}) {
