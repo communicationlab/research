@@ -197,6 +197,10 @@ function renderPeopleFull(mountSel) {
         <h2>${p.name}</h2>
         ${p.bio.map(par => `<p>${par}</p>`).join("")}
 
+        ${p.experience && p.experience.length ? `<h4 class="dossier__h">Professional Experience</h4><ul class="timeline">
+        ${p.experience.map(e => ` <li>   <span class="timeline__year">${e.year}</span>  <div>    <b>${e.position}</b>  <em>${e.org}</em>   </div>  </li> `).join("")}
+        </ul>` : ""}
+
         <h4 class="dossier__h">Education</h4>
         <ul class="timeline">
           ${p.education.map(e => `<li><span class="timeline__year">${e.year}</span><div><b>${e.deg}</b><em>${e.org}</em></div></li>`).join("")}
