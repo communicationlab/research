@@ -284,6 +284,7 @@ const PROJECTS = [
 /* ===========================================================================
    PUBLICATIONS   (type: journal | conference | patent)
    Newest first. Add new entries at the top of the relevant block.
+   status: "published or early-access or accepted or preprint"
    { year: 2026,  month: "Jul", type: "journal", status: "published", faculty: "islam", authors: "...", title: "...", venue: "...", volume: "24", issue: "3", pages: "315-329",doi: "10.11591/ijeecs.v24.i3.pp315-329", url: "..."}
    ========================================================================= */
 const PUBLICATIONS = [
