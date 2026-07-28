@@ -251,6 +251,7 @@ body::before{
 .pub__badge--journal{color:var(--rf);border-color:rgba(34,211,238,.4)}
 .pub__badge--conference{color:var(--mm);border-color:rgba(99,102,241,.45)}
 .pub__badge--patent{color:var(--thz);border-color:rgba(168,85,247,.45)}
+.pub__badge--status{color:#22c55e; border-color:#22c55e55;}
 .pub__who{font-size:.76rem;color:var(--muted)}
 .pub__award{font-size:.72rem;color:#fcd34d;font-family:var(--font-m)}
 .pub__title{margin:0 0 .3rem;font-family:var(--font-d);color:var(--mist);font-size:1.04rem;line-height:1.35;font-weight:500}
