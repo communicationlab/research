@@ -282,6 +282,7 @@ const PROJECTS = [
 /* ===========================================================================
    PUBLICATIONS   (type: journal | conference | patent)
    Newest first. Add new entries at the top of the relevant block.
+   { year: 2026,  month: "Jul", type: "journal", status: "published", faculty: "islam", authors: "...", title: "...", venue: "...", volume: "24", issue: "3", pages: "315-329",doi: "10.11591/ijeecs.v24.i3.pp315-329", url: "..."}
    ========================================================================= */
 const PUBLICATIONS = [
   /* ---------- Dr. Amirul Islam ---------- */
@@ -297,12 +298,11 @@ const PUBLICATIONS = [
 
 { year: 2026, type: "journal", faculty: "islam", authors: "S. Mahmood, S. A. Trina, A. S. Sukanna, M. S. Ahmed, A. Islam", title: "Multi-Model Deep Ensemble Framework for Early Diagnosis of Rare Genetic Disorders Using Genomic, Phenotypic, and EHR Data Fusion", venue: "Indonesian Journal of Electrical Engineering and Computer Science", url: "https://ijeecs.iaescore.com/index.php/IJEECS/article/view/45153/19971" },
 
-{ year: 2026, month: "April", type: "journal", faculty: "islam", authors: "A. Islam, T. Hossain, R. Basak, Md. S. R. Zishan", title: "Dynamic Power Allocation for Rate Optimization in Vehicular Reliable and Low-latency Camera Communications", venue: "ETRI Journal", volume: "48", issue: "2", pages: "219 – 323", url: "https://onlinelibrary.wiley.com/doi/10.4218/etrij.2025-0010" },
+{ year: 2026, month: "Apr", type: "journal", status: "published", faculty: "islam", authors: "A. Islam, T. Hossain, R. Basak, Md. S. R. Zishan", title: "Dynamic Power Allocation for Rate Optimization in Vehicular Reliable and Low-latency Camera Communications", venue: "ETRI Journal", volume: "48", issue: "2", pages: "219 – 323", doi: "10.4218/etrij.2025-0010", url: "https://onlinelibrary.wiley.com/doi/10.4218/etrij.2025-0010" },
 
 
 /* -------------------------- CONFERENCE PAPERS --------------------------- */
-/* NOTE: conference venue names were not listed on the public records I could 
-reach — please fill in the "venue" text before publishing these two.      */
+/* { year: 2026,  month: "Jul", type: "conference", status: "published", faculty: "islam", authors: "...", title: "...", venue: "...", location: "Seoul, South Korea", pages: "315-329", doi: "10.11591/ijeecs.v24.i3.pp315-329", url: "..."} */
 
 { year: 2026, type: "conference", faculty: "islam", authors: "A. S. Sukanna, S. Mahmood, S. A. Trina, A. Islam", title: "A Dual-Recurrent Attention Architecture for High-Recall Sentiment Analysis in Noisy Twitter Texts", venue: "", url: "" },
 
