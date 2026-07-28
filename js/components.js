@@ -254,8 +254,8 @@ function pubRow(p) {
         <div class="pub__tags">
           <span class="pub__badge pub__badge--${p.type}">${badge}</span>          
           ${p.award ? `<span class="pub__award">★ ${p.award}</span>` : ""}
-          ${p.status ? `<span class="pub__badge pub__badge--status">${p.status}</span>` : ""}
           ${p.quartile ? `<span class="pub__badge pub__badge--quartile pub__badge--${p.quartile.toLowerCase()}">    ${p.quartile} </span>` : ""}
+          ${p.status ? `<span class="pub__badge pub__badge--status">${p.status}</span>` : ""}          
           <span class="pub__who">${facultyName(p.faculty)}</span>
         </div>
         <p class="pub__title">${p.url ? `<a href="${p.url}" target="_blank" rel="noopener">${p.title}</a>` : p.title}</p>
