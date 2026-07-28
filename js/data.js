@@ -64,9 +64,12 @@ const PEOPLE = [
       "He received BRAC University's Quality Journal Publication Award (Q1, Top 10%) in 2025, multiple international best-paper awards, and was named an IARIA Fellow (2021/2022). He serves as Associate Editor of the Engineering Journal (Thailand) and reviews for numerous IEEE Transactions and journals." 
     
     ],
+
+     experience: [
+    {year: "2023", position: "Research Fellow, Electrical Engineering", org: "Stanford University, USA"},
+    {year: "2022",  position: "Postdoctoral Fellow, 5G & Beyond Access Networks", org: "KDDI Research, Inc., Japan"}
+    ],
     education: [
-      { deg: "Research Fellow, Electrical Engineering", org: "Stanford University, USA", year: "2023" },
-      { deg: "Postdoctoral Fellow, 5G & Beyond Access Networks", org: "KDDI Research, Inc., Japan", year: "2022" },
       { deg: "Ph.D. in Electrical Engineering", org: "Chulalongkorn University, Thailand", year: "2017" },
       { deg: "M.Eng. in Information & Communications Technologies", org: "Asian Institute of Technology, Thailand", year: "2011" },
       { deg: "M.Sc. Engg. in Electrical and Electronic Engineering (Major in Electronics and Communications) [Incomplete]", org: "Bangladesh University of Engineering and Technology (BUET), Bangladesh", year: "2005" },
