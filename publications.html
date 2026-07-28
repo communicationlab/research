@@ -15,12 +15,15 @@
   <div id="site-header"></div>
 
   <main id="main">
-    <section class="pagehead">
-      <div class="wrap">
-        <p class="eyebrow">Publications</p>
-        <h1>Peer-reviewed research output.</h1>
-      </div>
-    </section>
+   <section class="pagehead">
+  <div class="wrap pagehead__grid">
+    <div>
+      <p class="eyebrow">Publications</p>
+      <h1>Peer-reviewed research output.</h1>
+    </div>
+    <div class="pubstats" id="pubStats" aria-label="Publication summary"></div>
+  </div>
+</section>
 
     <section class="section">
       <div class="wrap">
@@ -52,5 +55,25 @@
   <script src="js/data.js"></script>
   <script src="js/components.js"></script>
   <script src="js/main.js"></script>
+  <script>
+(function () {
+  var el = document.getElementById("pubStats");
+  if (!el || typeof PUBLICATIONS === "undefined") return;
+  var P = PUBLICATIONS, by = function (t) { return P.filter(function (p) { return p.type === t; }).length; };
+  var cites = 0, hasC = false;
+  if (typeof PEOPLE !== "undefined") {
+    PEOPLE.forEach(function (pr) { (pr.stats || []).forEach(function (s) {
+      if (/citation/i.test(s.label)) { var n = parseInt(String(s.value).replace(/[^0-9]/g, ""), 10); if (!isNaN(n)) { cites += n; hasC = true; } }
+    }); });
+  }
+  var citeStr = cites >= 1000 ? (Math.floor(cites / 100) / 10) + "k+" : cites + "+";
+  var cells = [["Total", P.length], ["Journals", by("journal")], ["Conferences", by("conference")],
+               ["Patents", by("patent")], ["Awards", P.filter(function (p) { return p.award; }).length]];
+  if (hasC) cells.push(["Citations", citeStr]);
+  el.innerHTML = cells.map(function (c) {
+    return '<div class="pubstats__cell"><b>' + c[1] + '</b><span>' + c[0] + "</span></div>";
+  }).join("");
+})();
+</script>
 </body>
 </html>
