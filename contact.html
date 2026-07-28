@@ -30,7 +30,10 @@
             <h3>Research Cluster of Communication Networks and Systems</h3>
             <div class="contact-row"><span class="k">Dept</span><span class="v" id="cDept"></span></div>
             <div class="contact-row"><span class="k">School</span><span class="v" id="cSchool"></span></div>
-            <div class="contact-row"><span class="k">Email</span><span class="v"><a id="cEmail" href="#"></a></span></div>
+            <div class="contact-row"><span class="k">Email</span><span class="v contact-emails">
+  <a href="mailto:rony.saha@bracu.ac.bd">rony.saha@bracu.ac.bd</a>
+  <a href="mailto:amirul.islam@bracu.ac.bd">amirul.islam@bracu.ac.bd</a>
+</span></div>
             <div class="contact-row"><span class="k">Phone</span><span class="v"><a id="cPhone" href="#"></a></span></div>
             <div class="contact-row"><span class="k">Address</span><span class="v" id="cAddr"></span></div>
           </div>
@@ -62,8 +65,6 @@
       set("cDept", SITE.department);
       set("cSchool", SITE.school);
       set("cAddr", SITE.address);
-      const email = document.getElementById("cEmail");
-      if (email) { email.textContent = SITE.email; email.href = "mailto:" + SITE.email; }
       const phone = document.getElementById("cPhone");
       if (phone) { phone.textContent = SITE.phone; phone.href = "tel:" + SITE.phone.replace(/\s/g, ""); }
       const map = document.getElementById("cMap");
