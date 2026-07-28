@@ -207,9 +207,6 @@ const RESEARCH = [
     icon: "orbit",
     lead: "Sharing satellite spectrum with terrestrial small cells and integrating space-air-ground links.",
     points: ["Satellite–mobile spectrum sharing", "Hybrid multisystem access", "Link-budget analysis"]
-  
-    <img src="r.k.saha-upload-files/RKSaha107/IJCS.pdf">
-
   }
 ];
 
