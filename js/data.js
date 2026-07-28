@@ -114,9 +114,10 @@ const PEOPLE = [
       "He was a Postdoctoral Researcher at the Visual Artificial Intelligence Laboratory, Oxford Brookes University, UK, where he led the MAESTRO Jr. project on multimodal cognitive-workload assessment in surgical environments.",
       "He earned his Ph.D. in Computing and Electronic Systems from the University of Essex, UK (2022), an M.Sc. in Electronics Engineering from Kookmin University, South Korea (2017), and a B.Sc. in EEE from KUET, Bangladesh (2014). He remains active in interdisciplinary research and welcomes collaboration."
     ],
-     professional: [
-      { deg: "Assistant Professor", org: "AIUB, Bangladesh", year: "2025" },
-      { deg: "Postdoctoral Researcher", org: "Oxford Brookes University, UK", year: "2023" }
+    experience: [
+    {year: "2025–Present", position: "Assistant Professor", org: "Department of Electrical and Electronic Engineering, BRAC University"},
+    {year: "2023–2025",  position: "Assistant Professor", org: "Department of Electrical and Electronic Engineering, AIUB"},
+    {year: "2022–2023", position: "Postdoctoral Research Fellow", org: "Oxford Brookes University, United Kingdom"}
     ],
     education: [
       { deg: "Ph.D. in Computing & Electronic Systems", org: "University of Essex, UK", year: "2022" },
