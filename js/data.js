@@ -237,26 +237,6 @@ const PROJECTS = [
 { title: "Spectrum Sharing for Satellite–Mobile Heterogeneous Networks", image: "assets/projects/satellite.jpg", role: "Principal Investigator", faculty: "saha", org: "Radio Resource Management (RRM) Group", period: "2019", tags: ["Satellite-Mobile", "Spectrum Sharing", "3D Small Cells"], desc: "Spectrum sharing in satellite–mobile multisystems using 3D in-building small cells with time-domain CCI avoidance for high spectral and energy efficiency in 5G and beyond." },
 { title: "In-Building Small Cell Deployment & Interference Modeling", image: "assets/projects/inbuilding.jpg", role: "Principal Investigator", faculty: "saha", org: "Radio Resource Management (RRM) Group", period: "2017", tags: ["Small Cells", "Interference Modeling", "3D In-Building"], desc: "A tractable analytical model for interference characterization and minimum-distance enforcement to reuse resources in three-dimensional in-building dense small-cell networks." },
   
-   
-   
-   {
-    title: "Dynamic Spectrum Sharing for 5G NR & 4G LTE Coexistence",
-    role: "Principal Investigator",
-    faculty: "saha",
-    org: "BRAC University · STAR Lab collaboration",
-    period: "Ongoing",
-    tags: ["Spectrum Sharing", "5G NR", "Q1 Award"],
-    desc: "A comprehensive framework for low-band coexistence between LTE and NR, recognized with BRAC University's Quality Journal Publication Award (Q1, Top 10%)."
-  },
-  {
-    title: "In-Building mmWave / THz Spectrum Reuse for 6G",
-    role: "Principal Investigator",
-    faculty: "saha",
-    org: "BRAC University",
-    period: "Ongoing",
-    tags: ["6G", "mmWave", "THz", "Small Cells"],
-    desc: "Generic spectrum-reuse models for in-building multi-band small cells that push toward the spectral and energy efficiencies demanded by sixth-generation networks."
-  },
   {
     title: "M-CORD Virtualized & Sliced 5G RAN Proof-of-Concept",
     role: "Co-Investigator",
@@ -265,6 +245,15 @@ const PROJECTS = [
     period: "2017 – 2018",
     tags: ["Cloud-RAN", "Virtualization", "Slicing"],
     desc: "Prototype evaluation of virtualization and network slicing for the 5G radio access network with an ideal fronthaul testbed."
+  },   
+  {
+    title: "In-Building mmWave / THz Spectrum Reuse for 6G",
+    role: "Principal Investigator",
+    faculty: "saha",
+    org: "BRAC University",
+    period: "Ongoing",
+    tags: ["6G", "mmWave", "THz", "Small Cells"],
+    desc: "Generic spectrum-reuse models for in-building multi-band small cells that push toward the spectral and energy efficiencies demanded by sixth-generation networks."
   },
   {
     title: "MAESTRO Jr. — Multimodal Cognitive Workload Assessment",
