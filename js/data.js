@@ -53,7 +53,7 @@ const PEOPLE = [
     links: {
       profile: "https://engineering.bracu.ac.bd/profile/rony-kumer-saha-phd",
       website: "https://sites.google.com/site/rks107976/crictec/home",
-    }
+  
      // scholar: "https://scholar.google.com/",
      // researchgate: "https://www.researchgate.net/profile/Rony-Saha-4?ev=hdr_xprf"
     },
@@ -107,7 +107,7 @@ const PEOPLE = [
       website: "https://islamamirul.wordpress.com/",
       scholar: "https://scholar.google.com/",
       linkedin: "https://www.linkedin.com/in/islam-amirul/"
-    }
+  
      
     },
     short: "Assistant Professor of EEE, formerly a Postdoctoral Researcher at Oxford Brookes University's Visual AI Lab. Works at the intersection of machine learning and communication — deep reinforcement learning for ultra-reliable, low-latency and optical wireless systems.",
