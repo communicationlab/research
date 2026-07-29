@@ -65,15 +65,13 @@ const PEOPLE = [
     
     ],
 
-     experience: [
-    {year: "2023", position: "Research Fellow, Electrical Engineering", org: "Stanford University, USA"},
-    {year: "2022",  position: "Postdoctoral Fellow, 5G & Beyond Access Networks", org: "KDDI Research, Inc., Japan"}
-    ],
-    education: [
-      { deg: "Ph.D. in Electrical Engineering", org: "Chulalongkorn University, Thailand", year: "2017" },
-      { deg: "M.Eng. in Information & Communications Technologies", org: "Asian Institute of Technology, Thailand", year: "2011" },
-      /*{ deg: "M.Sc. Engg. in Electrical and Electronic Engineering (Major in Electronics and Communications) [Incomplete]", org: "Bangladesh University of Engineering and Technology (BUET), Bangladesh", year: "2005" },*/
-      { deg: "B.Sc. in Electrical & Electronic Engineering", org: "Khulna University of Engineering and Technology (KUET), Bangladesh", year: "2004" }
+   education: [
+    {year: "2023", position: "Research Fellow in Electrical Engineering", org: "Stanford University, USA"},
+    {year: "2017-2022",  position: "Postdoctoral Fellow in 5G & Beyond Mobile Access Networks", org: "KDDI Research, Inc., Japan"}
+    { deg: "Ph.D. in Electrical Engineering", org: "Chulalongkorn University, Thailand", year: "2014-2017" },
+    { deg: "M.Eng. in Information & Communications Technologies", org: "Asian Institute of Technology, Thailand", year: "2008-2011" },
+    { deg: "M.Sc. Engg. in Electrical and Electronic Engineering [Incomplete]", org: "Bangladesh University of Engineering and Technology (BUET), Bangladesh", year: "2005-2006 & 2008-" },
+    { deg: "B.Sc. in Electrical & Electronic Engineering", org: "Khulna University of Engineering and Technology (KUET), Bangladesh", year: "2000-2004" }
     ],
     interests: [
       "AI/ML Applications to 5G/6G Spectrum Sharing and Management",
