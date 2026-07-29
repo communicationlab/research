@@ -307,17 +307,23 @@ function renderPublications(mountSel, opts = {}) {
 }
 
 function projectCard(p, i) {
+  const head = p.image
+    ? `<div class="proj__fig"><img src="${p.image}" alt="${p.title}" loading="lazy"></div>`
+    : `<div class="proj__fig proj__fig--ph"><span>${(p.tags && p.tags[0]) || "Research"}</span></div>`;
   return `
     <article class="proj reveal" style="--i:${i}">
-      <div class="proj__top">
-        <span class="proj__role">${p.role}</span>
-        <span class="proj__period">${p.period}</span>
+      ${head}
+      <div class="proj__pad">
+        <div class="proj__top">
+          <span class="proj__role">${p.role}</span>
+          <span class="proj__period">${p.period}</span>
+        </div>
+        <h3>${p.title}</h3>
+        <p class="proj__org">${p.org}</p>
+        <p class="proj__desc">${p.desc}</p>
+        <div class="chips">${p.tags.map(t => `<span class="chip">${t}</span>`).join("")}</div>
+        <p class="proj__pi"><span class="member">${facultyName(p.faculty)}</span></p>
       </div>
-      <h3>${p.title}</h3>
-      <p class="proj__org">${p.org}</p>
-      <p class="proj__desc">${p.desc}</p>
-      <div class="chips">${p.tags.map(t => `<span class="chip">${t}</span>`).join("")}</div>
-      <p class="proj__pi"><span class="member">${facultyName(p.faculty)}</span></p>
     </article>`;
 }
 function renderProjects(mountSel, limit) {
