@@ -67,7 +67,7 @@ const PEOPLE = [
 
    education: [
     {year: "2023", position: "Research Fellow in Electrical Engineering", org: "Stanford University, USA"},
-    {year: "2017-2022",  position: "Postdoctoral Fellow in 5G & Beyond Mobile Access Networks", org: "KDDI Research, Inc., Japan"}
+    {year: "2017-2022",  position: "Postdoctoral Fellow in 5G & Beyond Mobile Access Networks", org: "KDDI Research, Inc., Japan"},
     { deg: "Ph.D. in Electrical Engineering", org: "Chulalongkorn University (CHULA), Thailand", year: "2014-2017" },
     { deg: "M.Eng. in Information & Communications Technologies", org: "Asian Institute of Technology (AIT), Thailand", year: "2008-2011" },
     { deg: "M.Sc. Engg. in Electrical and Electronic Engineering [Incomplete]", org: "Bangladesh University of Engineering and Technology (BUET), Bangladesh", year: "2005-2006 & 2008-" },
