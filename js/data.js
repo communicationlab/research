@@ -71,7 +71,7 @@ const PEOPLE = [
     { deg: "Ph.D. in Electrical Engineering", org: "Chulalongkorn University (CHULA), Thailand", year: "2014-2017" },
     { deg: "M.Eng. in Information & Communications Technologies", org: "Asian Institute of Technology (AIT), Thailand", year: "2008-2011" },
     { deg: "M.Sc. in Electrical and Electronic Engineering [Incomplete]", org: "Bangladesh University of Engineering and Technology (BUET), Bangladesh", year: "2005-2006" },
-    { deg: "B.Sc. in Electrical & Electronic Engineering", org: "Khulna University of Engineering and Technology (KUET), Bangladesh", year: "2000-2004" }
+    { deg: "B.Sc. in Electrical & Electronic Engineering (First Class Second)", org: "Khulna University of Engineering and Technology (KUET), Bangladesh", year: "2000-2004" }
     ],
     interests: [
       "AI/ML Applications to 5G/6G Spectrum Sharing and Management",
