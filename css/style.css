@@ -268,6 +268,7 @@ body::before{
 .pub__title a:hover{color:var(--rf)}
 .pub__meta{margin:0;font-size:.86rem;color:var(--muted)}
 .pub__authors{color:var(--soft)}
+.pub__who{display:none;}
 #pubEmpty{display:none;padding:2rem 0;color:var(--muted);font-family:var(--font-m)}
 @media (max-width:600px){.pub{grid-template-columns:1fr;gap:.5rem}.pub__year{padding-top:0}}
 
