@@ -328,17 +328,36 @@ function renderProjects(mountSel, limit) {
 
 /* ---- research assistants & collaborators (placeholders) ------------------ */
 function teamCard(t) {
-  const initials = t.name === "Open position" || t.name === "Collaborator"
-    ? "+"
-    : (t.name.split(" ").filter(w => /^[A-Za-z]/.test(w)).slice(0, 2).map(w => w[0]).join("") || "+");
+  const initials = (t.name.match(/[A-Za-z]+/g) || []).slice(0, 2).map(w => w[0].toUpperCase()).join("") || "+";
+  const dept = t.dept || "Department of EEE, BRAC University";
+  const L = t.links || {};
+  const ICON = {
+    website:      { l: "web", c: "#0f766e", t: "Website" },
+    scholar:      { l: "GS",  c: "#4285F4", t: "Google Scholar" },
+    researchgate: { l: "RG",  c: "#00A98F", t: "ResearchGate" },
+    orcid:        { l: "iD",  c: "#A6CE39", t: "ORCID" },
+    linkedin:     { l: "in",  c: "#0A66C2", t: "LinkedIn" },
+    github:       { l: "GH",  c: "#24292f", t: "GitHub" },
+    email:        { l: "@",   c: "#EA4335", t: "Email" }
+  };
+  const icons = Object.keys(ICON).filter(k => L[k]).map(k => {
+    const d = ICON[k], href = k === "email" ? "mailto:" + L[k] : L[k];
+    return `<a class="tcard__ico" style="--c:${d.c}" href="${href}" target="_blank" rel="noopener" title="${d.t}" aria-label="${d.t}">${d.l}</a>`;
+  }).join("");
+  const btn = t.profile
+    ? `<a class="tcard__btn" href="${t.profile}" target="_blank" rel="noopener">View Profile <span aria-hidden="true">↗</span></a>`
+    : `<a class="tcard__btn tcard__btn--soft" href="${t.link || "contact.html"}">Contact</a>`;
   return `
     <article class="tcard reveal">
-      <span class="tcard__avatar">${initials}</span>
+      <div class="tcard__photo">${t.photo ? `<img src="${t.photo}" alt="${t.name}" loading="lazy">` : `<span class="tcard__ph">${initials}</span>`}</div>
       <div class="tcard__body">
-        <div class="tcard__top"><h4>${t.name}</h4><span class="tcard__tag">${t.tag || "RA"}</span></div>
+        <h4 class="tcard__name">${t.name}</h4>
         <p class="tcard__role">${t.role}</p>
-        <p class="tcard__area">${t.area}</p>
-        ${t.link ? `<a class="tcard__link" href="${t.link}">Get in touch →</a>` : ""}
+        <p class="tcard__dept">${dept}</p>
+        ${t.tag ? `<p class="tcard__sup">${t.tag}</p>` : ""}
+        ${t.area ? `<p class="tcard__area">${t.area}</p>` : ""}
+        ${icons ? `<div class="tcard__icons">${icons}</div>` : ""}
+        ${btn}
       </div>
     </article>`;
 }
