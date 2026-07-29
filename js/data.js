@@ -329,7 +329,7 @@ const PUBLICATIONS = [
 
 { year: 2016, month: "Jul", type: "journal", status: "", faculty: "islam", authors: "M. A. Hossain, A. Islam, N. T. Le, H. W. Lee, Y. T. Lee, Y. M. Jang", title: "Performance Analysis of Smart Digital Signage System Based on Software-Defined IoT and Invisible Image Sensor Communication", venue: "International Journal of Distributed Sensor Networks", volume: "12", issue: "7", pages: "1-14", quartile: "Q2", doi: "10.1177/1550147716657926", url: "https://doi.org/10.1177/1550147716657926" },
 
-{ year: 2016, month: "", type: "journal", status: "", faculty: "islam", authors: "N. T. Le, M. A. Hossain, A. Islam, D. Y. Kim, Y. J. Choi, Y. M. Jang", title: "Survey of Promising Technologies for 5G Networks", venue: "Mobile Information Systems", volume: "2016", issue: "", pages: "25 pages", quartile: "", doi: "10.1155/2016/2676589", url: "https://doi.org/10.1155/2016/2676589" }
+{ year: 2016, month: "", type: "journal", status: "", faculty: "islam", authors: "N. T. Le, M. A. Hossain, A. Islam, D. Y. Kim, Y. J. Choi, Y. M. Jang", title: "Survey of Promising Technologies for 5G Networks", venue: "Mobile Information Systems", volume: "2016", issue: "", pages: "25 pages", quartile: "", doi: "10.1155/2016/2676589", url: "https://doi.org/10.1155/2016/2676589" },
    
 
 /* -------------------------- CONFERENCE PAPERS --------------------------- */
@@ -344,7 +344,6 @@ const PUBLICATIONS = [
    Dr. Rony Kumer Saha  —  BRAC-affiliation publications
    ----------------------------------------------------------------------------
   /* ---------- Dr. Rony Kumer Saha ---------- */
-  { year: 2019, type: "patent", faculty: "saha", authors: "R. K. Saha, K. Yamazaki", title: "User Equipment and Mobile Communication Network", venue: "Japanese Patent JP 2019-031876 (filed Feb. 25, 2019)", url: "" },
 
   /* Journals */
   { year: 2026, month: "Jun", type: "journal", status: "", faculty: "saha", authors: "R. K. Saha", title: "Multi-MNO Dynamic Spectrum Sharing Between LTE and NR Technologies in Indoor Small Cell Networks", venue: "IEEE Access", volume: "14", issue: "", pages: "90509-90527", quartile: "Q1", url: "https://doi.org/10.1109/ACCESS.2026.3702365" },
