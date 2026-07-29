@@ -425,8 +425,7 @@ const TEAM = [
   role: "Graduate Student Researcher",
   tag:  "Supervisor: Dr. Rony Kumer Saha",
   area: "Dynamic Spectrum Sharing in future mobile networks",
-  photo: "https://feniuniversity.ac.bd/public/storage/upload/facultyMembers/resize_356X390/260513101215-3917.jpeg.jpg",
-  profile: "https://…",          // dile BLUE "View Profile" button, na dile "Contact"
+  photo: "https://feniuniversity.ac.bd/public/storage/upload/facultyMembers/resize_356X390/260513101215-3917.jpeg",
   links: {                        // ja ache oi icon-i ashbe:
     scholar: "https://scholar.google.com/…",
     researchgate: "https://researchgate.net/…",
@@ -442,7 +441,6 @@ const TEAM = [
   tag:  "Supervisor: Dr. Rony Kumer Saha",
   area: "Communication Systems, Wireless Networks, Machine Learning, Artificial Intelligence, Signal Processing, and Next-Generation Communication Technologies",
   photo: "https://cse.sds.bracu.ac.bd/storage/media/1048/IMG_1241.jpeg",
-  profile: "https://…",          // dile BLUE "View Profile" button, na dile "Contact"
   links: {                        // ja ache oi icon-i ashbe:
     scholar: "https://scholar.google.com/…",
     researchgate: "https://researchgate.net/…",
@@ -458,7 +456,6 @@ const TEAM = [
   tag:  "Supervisor: Dr. Rony Kumer Saha",
   area: "6G & 5G Coexistence, AI & ML",
   photo: "https://…/photo.jpg",
-  profile: "https://…",          // dile BLUE "View Profile" button, na dile "Contact"
   links: {                        // ja ache oi icon-i ashbe:
     scholar: "https://scholar.google.com/…",
     researchgate: "https://researchgate.net/…",
@@ -474,7 +471,6 @@ const TEAM = [
   tag:  "Supervisor: Dr. Rony Kumer Saha",
   area: "4G/5G/6G Mobile Communications, Wireless Communications, Radio Resource Management, Coexistence Studies, Channel Modeling, Heterogeneous Networks",
   photo: "https://…/photo.jpg",
-  profile: "https://…",          // dile BLUE "View Profile" button, na dile "Contact"
   links: {                        // ja ache oi icon-i ashbe:
     scholar: "https://scholar.google.com/…",
     researchgate: "https://researchgate.net/…",
