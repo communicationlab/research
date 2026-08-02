@@ -296,6 +296,8 @@ const PUBLICATIONS = [
  
 /* ---------------------------- JOURNAL PAPERS ---------------------------- */
 
+{ year: 2026, month: "Aug", type: "journal", status: "accepted", faculty: "islam", authors: "S. Mahmood, S. A. Trina, M. E. Khandokar, A. S. Sukanna, M. S. Ahmed, A. Islam", title: "	Intelligent Multi-Modal Learning Framework for Cybersecurity Threat Detection in IoT", venue: "IAES International Journal of Artificial Intelligence", volume: "", issue: "", pages: "", quartile: "Q2", doi: "", url: ""},
+  
 { year: 2026, month: "Jan", type: "journal", status: "", faculty: "islam", authors: "N. N. Karima, S. Ahmad, A. Islam, et al.", title: "Enhancing Short-Term Load Forecasting Using Hyperparameter-Optimized Deep Learning Approaches", venue: "Energies", volume: "19", issue: "3", pages: "1-30", quartile: "Q1", doi: "10.3390/en19030705", url: "https://doi.org/10.3390/en19030705" },
 
 { year: 2026, month: "May", type: "journal", status: "", faculty: "islam", authors: "A. M. Arika, A. S. N. Huda, S. Ahmad, A. Islam", title: "Vibration-Based Multi-Class Fault Severity Classification of Wind Turbine Gearboxes Using Explainable Machine Learning", venue: "Energy Conversion and Management: X", volume: "30", issue: "", pages: "1-31", quartile: "Q1", doi: "10.1016/j.ecmx.2026.101621", url: "https://doi.org/10.1016/j.ecmx.2026.101621" },
