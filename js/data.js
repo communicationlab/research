@@ -59,10 +59,17 @@ const PEOPLE = [
     },
     short: "Associate Professor of EEE and member of the Dynamic Spectrum Management Group at Stanford's STAR Laboratory. Fifteen years of research in mobile wireless communications across academia and industry, with 75+ peer-reviewed papers and a Japanese patent.",
     bio: [
-      "Dr. Rony Kumer Saha is an Associate Professor in the Department of Electrical and Electronic Engineering at BRAC University. Since February 2023, he has been a member of the Dynamic Spectrum Management Group at the STAR Laboratory, Stanford University, and served as a Visiting Professor of Electrical Engineering at Stanford from February to May 2023.",
+     /* "Dr. Rony Kumer Saha is an Associate Professor in the Department of Electrical and Electronic Engineering at BRAC University. Since February 2023, he has been a member of the Dynamic Spectrum Management Group at the STAR Laboratory, Stanford University, and served as a Visiting Professor of Electrical Engineering at Stanford from February to May 2023.",
       "Earlier, he was a Postdoctoral Researcher across the Optical Access Network, Wireless Platform, and Radio & Spectrum Laboratories at KDDI Research, Inc., Japan (2017–2022), and held faculty positions at American International University-Bangladesh and East West University. He has authored 75+ peer-reviewed international journal and conference papers and filed a Japanese patent.",
-      "He received BRAC University's Quality Journal Publication Award (Q1, Top 10%) in 2025, multiple international best-paper awards, and was named an IARIA Fellow (2021/2022). He serves as Associate Editor of the Engineering Journal (Thailand) and reviews for numerous IEEE Transactions and journals." 
-    
+      "He received BRAC University's Quality Journal Publication Award (Q1, Top 10%) in 2025, multiple international best-paper awards, and was named an IARIA Fellow (2021/2022). He serves as Associate Editor of the Engineering Journal (Thailand) and reviews for numerous IEEE Transactions and journals." */ 
+
+      "RONY K. SAHA (Fellow, IARIA) earned a B.Sc. in electrical and electronic engineering from Khulna University of Engineering and Technology (2004), an M.Eng. in information and communications technologies from Asian Institute of Technology (2011), and a Ph.D. in electrical engineering from Chulalongkorn University (2017)." 
+      "He has been an Associate Professor at BRAC University since 2022 and was a Visiting Professor at Stanford's STAR Lab in 2023." 
+      "His previous roles include Postdoctoral Fellow at KDDI Research, Japan (2017-2022), Lecturer and Assistant Professor at American International University-Bangladesh (2005-2013), and affiliations with East West University and Nokia Siemens Networks." 
+      "He has published ~80 papers, filed a Japanese patent, and his research covers 5G/6G networks, dynamic spectrum sharing, small cells, and terahertz communications." 
+      "He received full funding for his master’s and Ph.D., the BRAC University Quality Journal Publication Award (2025), and was nominated again (2026)." 
+      "He earned top evaluation at KDDI Japan (2019-2020) and received several best paper awards in Europe (2020-2021)."
+      "He was named an IARIA Fellow (2021/2022), served as an Assistant Editor, reviewer, and conference committee member, and participated in industry and academic groups, including the Fronthaul Working Group, IEEE GlobeComm, IEEE VTC-Fall, and IEEE DysPAN." 
     ],
 
    education: [
