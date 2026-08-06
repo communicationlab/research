@@ -61,7 +61,7 @@ const PEOPLE = [
     },
     // short: "Associate Professor of EEE and member of the Dynamic Spectrum Management Group at Stanford's STAR Laboratory. Fifteen years of research in mobile wireless communications across academia and industry, with 75+ peer-reviewed papers and a Japanese patent.",
      
-    short: "About 20 years of experience in Mobile Communication Research in both Industry (KDDI Research, Nokia Siemens Networks, xRAN Forum) and academic (Stanford University, Chulalongkorn, AIT, KUET, BUET, BRACU, EWU, AIUB) environments. Published more than 80 journal/conference articles, including 20 plus Top 10% Q1 journals. Reviewer of IEEE, Wiley, Elsevier, and Springer journal papers, and associate editor of the Engineering Journal-Thailand.", 
+    short: "About 20 years of experience in Mobile Communication Research at both Industry (KDDI Research, Nokia Siemens Networks, xRAN Forum) and academic (Stanford University, Chulalongkorn, AIT, KUET, BUET, BRACU, EWU, AIUB) environments, guided by experts with Ph.D. degrees from MIT, Stanford, Imperial College London, and UTokyo. Published more than 80 journal/conference articles, including 20 plus Top 10% Q1 journals, cited by 820+ with an H-index of 18, i-10 index of 27 (as of Aug/2026). Reviewer of IEEE, Wiley, Elsevier, and Springer journals, and associate editor of the Engineering Journal-Thailand.", 
 
      
      bio: [
