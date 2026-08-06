@@ -59,7 +59,7 @@ const PEOPLE = [
      // scholar: "https://scholar.google.com/",
      // researchgate: "https://www.researchgate.net/profile/Rony-Saha-4?ev=hdr_xprf"
     },
-   //  short: "Associate Professor of EEE and member of the Dynamic Spectrum Management Group at Stanford's STAR Laboratory. Fifteen years of research in mobile wireless communications across academia and industry, with 75+ peer-reviewed papers and a Japanese patent.",
+     short: "Associate Professor of EEE and member of the Dynamic Spectrum Management Group at Stanford's STAR Laboratory. Fifteen years of research in mobile wireless communications across academia and industry, with 75+ peer-reviewed papers and a Japanese patent.",
      
     // short: "About 20 years of experience in Mobile Communication Research in both Industry (KDDI Research, Nokia Siemens Networks, xRAN Forum) and academic (Stanford University, Chulalongkorn, AIT, KUET, BUET, BRACU, EWU, AIUB) environments. 80+, including 20 plus Top 10% Q1 journals, research journal and conference articles published by renowned publishers. Stanford Research Fellowship, KDDI Best Researcher Award, IEEE/Wiley/Elsevier/Springer journal/transaction reviewer, best conference paper award, associate editor, IEEE–VTC session chair, steering committee, TPC member, and panelist. Google Citation: 820+, i-10 index: 27, h-index: 18.",
 
