@@ -61,7 +61,7 @@ function mountHeader() {
     <header class="nav" id="nav">
       <div class="wrap nav__inner">
         <a class="brand" href="index.html" aria-label="${SITE.labName} home">
-          <span class="brand__mark" aria-hidden="true"><span></span><span></span><span></span></span>
+          <svg class="brand__logo" viewBox="0 0 40 40" fill="none" aria-hidden="true"><defs><linearGradient id="c2nsGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset=".45" stop-color="#0ea5b7"/><stop offset="1" stop-color="#0d9488"/></linearGradient></defs><circle cx="11" cy="20" r="4" fill="url(#c2nsGrad)"/><g stroke="url(#c2nsGrad)" stroke-width="3" stroke-linecap="round"><path d="M17.5 13.5 A9 9 0 0 1 17.5 26.5"/><path d="M23.5 8.5 A15 15 0 0 1 23.5 31.5"/><path d="M29.5 4 A21 21 0 0 1 29.5 36" opacity=".45"/></g></svg>
           <span class="brand__text"><b>${SITE.labShort}</b><i>${SITE.labName}</i></span>
         </a>
         <button class="nav__toggle" id="navToggle" aria-label="Menu" aria-expanded="false">
@@ -85,7 +85,7 @@ function mountFooter() {
       <div class="wrap foot__grid">
         <div class="foot__brand">
           <div class="brand brand--foot">
-            <span class="brand__mark" aria-hidden="true"><span></span><span></span><span></span></span>
+            <svg class="brand__logo" viewBox="0 0 40 40" fill="none" aria-hidden="true"><defs><linearGradient id="c2nsGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset=".45" stop-color="#0ea5b7"/><stop offset="1" stop-color="#0d9488"/></linearGradient></defs><circle cx="11" cy="20" r="4" fill="url(#c2nsGrad)"/><g stroke="url(#c2nsGrad)" stroke-width="3" stroke-linecap="round"><path d="M17.5 13.5 A9 9 0 0 1 17.5 26.5"/><path d="M23.5 8.5 A15 15 0 0 1 23.5 31.5"/><path d="M29.5 4 A21 21 0 0 1 29.5 36" opacity=".45"/></g></svg>
             <span class="brand__text"><b>${SITE.labShort}</b><i>${SITE.labName}</i></span>
           </div>
           <p>${SITE.subtitle}</p>
