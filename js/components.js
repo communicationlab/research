@@ -49,7 +49,7 @@ function mountHeader() {
   const page = document.body.dataset.page || "";
   const nav = [
     ["index", "index.html", "Home"],
-    ["about", "about.html", "About"],
+    // ["about", "about.html", "About"],
     ["research", "research.html", "Research"],
     ["people", "people.html", "People"],
     ["publications", "publications.html", "Publications"],
