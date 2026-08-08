@@ -475,7 +475,9 @@ body::before{
 .pubstats__cell b{display:block;font-family:var(--font-d);font-size:1.7rem;line-height:1;margin-bottom:.35rem;background:var(--spectrum);-webkit-background-clip:text;background-clip:text;color:transparent}
 .pubstats__cell span{font-family:var(--font-m);font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
 @media (max-width:420px){ .pubstats{grid-template-columns:repeat(2,1fr)} }
-
 .contact-emails{display:flex;flex-direction:column;gap:.3rem}
 .brand__logo{width:30px;height:30px;display:block;flex:0 0 auto}
 .brand--foot .brand__logo{width:32px;height:32px}
+.pagehead h1{white-space:nowrap}
+
+
