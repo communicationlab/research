@@ -490,6 +490,7 @@ const PUBLICATIONS = [
 const TEAM = [
 {
   name: "Abidur Rahman Sagor",
+   category: "Research Assistants",
   role: "Research Assistant",
   area: "ML, AI, and Optimization",
   photo: "https://i.ibb.co.com/HTNdcSBg/a46f01a9-136b-4b4f-ab04-67afce039858.jpg",
@@ -503,6 +504,7 @@ const TEAM = [
 },
    {
   name: "Md. Forhad Javed",
+      category: "Graduate Student Researcher",
   role: "Graduate Student Researcher",
   tag:  "Supervisor: Dr. Rony Kumer Saha",
   area: "Dynamic Spectrum Sharing in future mobile networks",
@@ -518,6 +520,7 @@ const TEAM = [
 },
    {
   name: "Mir Hamidul Hussain",
+      category: "Graduate Student Researcher",
   role: "Graduate Student Researcher",
   tag:  "Supervisor: Dr. Rony Kumer Saha",
   area: "Communication Systems, Wireless Networks, Machine Learning, Artificial Intelligence, Signal Processing, and Next-Generation Communication Technologies",
@@ -533,6 +536,7 @@ const TEAM = [
 },
    {
   name: "M.B.M Abdullah",
+      category: "Graduate Student Researcher",
   role: "Graduate Student Researcher",
   tag:  "Supervisor: Dr. Rony Kumer Saha",
   area: "6G & 5G Coexistence, AI & ML",
@@ -548,6 +552,7 @@ const TEAM = [
 },
    {
   name: "Tasnia Alam Tasfia",
+      category: "Graduate Student Researcher",
   role: "Graduate Student Researcher",
   tag:  "Supervisor: Dr. Rony Kumer Saha",
   area: "4G/5G/6G Mobile Communications, Wireless Communications, Radio Resource Management, Coexistence Studies, Channel Modeling, Heterogeneous Networks",
