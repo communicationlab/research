@@ -366,7 +366,15 @@ function teamCard(t) {
 }
 function renderTeam(mountSel) {
   const m = $(mountSel); if (!m || typeof TEAM === "undefined") return;
-  m.innerHTML = TEAM.map(teamCard).join("");
+  const ORDER = ["Research Assistants", "Graduate Students", "Undergraduate Students", "Collaborators", "Visiting Fellows", "Alumni"];
+  const groups = {};
+  TEAM.forEach(t => { const c = t.category || "Members"; (groups[c] = groups[c] || []).push(t); });
+  const cats = ORDER.filter(c => groups[c]).concat(Object.keys(groups).filter(c => !ORDER.includes(c)));
+  m.innerHTML = cats.map(c => `
+    <div class="teamcat">
+      <h3 class="teamcat__title">${c}</h3>
+      <div class="teamgrid">${groups[c].map(teamCard).join("")}</div>
+    </div>`).join("");
 }
 
 /* ---- shared pagination control ------------------------------------------- */
