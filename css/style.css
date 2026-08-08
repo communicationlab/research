@@ -484,3 +484,7 @@ body[data-page="people"] .pagehead h1{max-width:none;font-size:clamp(1.7rem,4.6v
 @media (min-width:760px){ body[data-page="people"] .pagehead h1{white-space:nowrap} }
 .brand__logo{width:34px;height:34px;border-radius:9px;object-fit:cover;display:block;flex:0 0 auto;box-shadow:0 1px 3px rgba(15,23,42,.18)}
 .brand--foot .brand__logo{width:36px;height:36px}
+
+.brand{gap:.8rem}
+.brand__logo{width:44px;height:44px;border-radius:11px;object-fit:cover;display:block;flex:0 0 auto;box-shadow:0 1px 4px rgba(15,23,42,.2)}
+.brand--foot .brand__logo{width:44px;height:44px}
