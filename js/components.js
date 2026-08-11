@@ -299,6 +299,8 @@ function renderPublications(mountSel, opts = {}) {
     return statusDiff;
 
 });
+   if (opts.q1Only) list = list.filter(p => (p.quartile || "").toUpperCase() === "Q1");
+if (opts.limit) list = list.slice(0, opts.limit);
   if (opts.limit) list = list.slice(0, opts.limit);
   m.innerHTML = list.map(pubRow).join("");
 }
