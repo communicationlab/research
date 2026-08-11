@@ -431,7 +431,7 @@ document.addEventListener("DOMContentLoaded", () => {
   renderPeopleBrief("#homePeople");
   renderPeopleFull("#peopleFull");
   renderTeam("#teamGrid");
-  renderPublications("#homePubs", { limit: 6 });
+ renderPublications("#homePubs", { limit: 6, q1Only: true });
   renderPublications("#allPubs");
   renderProjects("#homeProjects", 3);
   if ($("#projPager")) renderProjectsPaged("#allProjects", "#projPager", 4);
