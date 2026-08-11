@@ -56,7 +56,7 @@ const PEOPLE = [
       website: "https://sites.google.com/site/rks107976/crictec/home",
   
      // scholar: "https://scholar.google.com/",
-     // researchgate: "https://www.researchgate.net/profile/Rony-Saha-4?ev=hdr_xprf"
+    
     },
     // short: "Associate Professor of EEE and member of the Dynamic Spectrum Management Group at Stanford's STAR Laboratory. Fifteen years of research in mobile wireless communications across academia and industry, with 75+ peer-reviewed papers and a Japanese patent.",
      
