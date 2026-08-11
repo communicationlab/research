@@ -10,7 +10,6 @@
      • Add a person     -> add an object to  PEOPLE
      • Rename the lab   -> edit             SITE
 
-   Keep the field names the same; the pages read them automatically.
    ========================================================================== */
 
 const SITE = {
