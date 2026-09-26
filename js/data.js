@@ -306,10 +306,12 @@ const PROJECTS = [
    ========================================================================= */
 const PUBLICATIONS = [
   /* ---------- Dr. Amirul Islam ---------- */
-   /* ---------- Dr. Amirul Islam ---------- */
+   /* ---------- Dr. Amirul Islam ---------- */ 
  
 /* ---------------------------- JOURNAL PAPERS ---------------------------- */
 
+{ year: 2026, month: "Sep", type: "journal", status: "accepted", faculty: "islam", authors: "M. M. Alam, M. Mumtahinah, M. J. Ul Ahsan, R. N. Cruze, M. N. Morshed, A. Islam, M. A. Khan, M. Y. Arafat", title: "Synergizing Multimodal Large Language Models and GRPO-based Physics-Guided DRL for UAV Swarm Navigation in Dynamic Environments", venue: "IEEE Access", volume: "", issue: "", pages: "", quartile: "Q1", doi: "", url: ""},
+  
 { year: 2026, month: "Aug", type: "journal", status: "accepted", faculty: "islam", authors: "S. Mahmood, S. A. Trina, M. E. Khandokar, A. S. Sukanna, M. S. Ahmed, A. Islam", title: "	Intelligent Multi-Modal Learning Framework for Cybersecurity Threat Detection in IoT", venue: "IAES International Journal of Artificial Intelligence", volume: "", issue: "", pages: "", quartile: "Q2", doi: "", url: ""},
   
 { year: 2026, month: "Jan", type: "journal", status: "", faculty: "islam", authors: "N. N. Karima, S. Ahmad, A. Islam, et al.", title: "Enhancing Short-Term Load Forecasting Using Hyperparameter-Optimized Deep Learning Approaches", venue: "Energies", volume: "19", issue: "3", pages: "1-30", quartile: "Q1", doi: "10.3390/en19030705", url: "https://doi.org/10.3390/en19030705" },
