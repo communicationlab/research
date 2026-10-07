@@ -312,7 +312,7 @@ const PUBLICATIONS = [
 
 { year: 2026, month: "Oct", type: "journal", status: "accepted", faculty: "islam", authors: "Md. S. Hossain, Md T. Hassan, and A. Islam", title: "G-Buffer-Guided Feature Modulation for Lightweight Rendered Image Super-Resolution", venue: "Array", volume: "", issue: "", pages: "", quartile: "Q1", doi: "", url: ""},
    
-{ year: 2026, month: "Sep", type: "journal", status: "accepted", faculty: "islam", authors: "M. M. Alam, M. Mumtahinah, M. J. Ul Ahsan, R. N. Cruze, M. N. Morshed, A. Islam, M. A. Khan, M. Y. Arafat", title: "Synergizing Multimodal Large Language Models and GRPO-based Physics-Guided DRL for UAV Swarm Navigation in Dynamic Environments", venue: "IEEE Access", volume: "", issue: "", pages: "", quartile: "Q1", doi: "", url: ""},
+{ year: 2026, month: "Sep", type: "journal", status: "accepted", faculty: "islam", authors: "M. M. Alam, M. Mumtahinah, M. J. Ul Ahsan, R. N. Cruze, M. N. Morshed, A. Islam, M. A. Khan, M. Y. Arafat", title: "Synergizing Multimodal Large Language Models and GRPO-based Physics-Guided DRL for UAV Swarm Navigation in Dynamic Environments", venue: "IEEE Access", volume: "14", issue: "", pages: "151755 - 151769", quartile: "Q1", doi: "10.1109/ACCESS.2026.3738149", url: "https://ieeexplore.ieee.org/document/11715755"},
   
 { year: 2026, month: "Aug", type: "journal", status: "accepted", faculty: "islam", authors: "S. Mahmood, S. A. Trina, M. E. Khandokar, A. S. Sukanna, M. S. Ahmed, A. Islam", title: "	Intelligent Multi-Modal Learning Framework for Cybersecurity Threat Detection in IoT", venue: "IAES International Journal of Artificial Intelligence", volume: "", issue: "", pages: "", quartile: "Q2", doi: "", url: ""},
   
